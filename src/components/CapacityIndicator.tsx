@@ -36,11 +36,16 @@ function CarBody({
   capacity: 'low' | 'medium' | 'high'
   isHead: boolean
 }) {
-  const fill = `var(--color-capacity-${capacity})`
+  const colors = {
+    low: 'var(--color-capacity-low)',
+    medium: 'var(--color-capacity-medium)',
+    high: 'var(--color-capacity-high)',
+  }
+  const fill = colors[capacity]
   return (
     <svg
-      width="42"
-      height="18"
+      width="2.5rem"
+      height="1.25rem"
       viewBox="0 0 42 18"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +58,7 @@ function CarBody({
       ) : (
         <rect width="42" height="18" rx="2" fill={fill} />
       )}
-      <People capacity={capacity} />
+      <People capacity={capacity} isHead={isHead} />
     </svg>
   )
 }
@@ -70,17 +75,24 @@ function Person() {
   )
 }
 
-function People({ capacity }: { capacity: 'low' | 'medium' | 'high' }) {
+function People({
+  capacity,
+  isHead,
+}: {
+  capacity: 'low' | 'medium' | 'high'
+  isHead: boolean
+}) {
+  const transform = isHead ? 'translate(12, 2)' : 'translate(18, 2)'
   if (capacity === 'high') {
     return (
-      <g transform="translate(18, 2)">
+      <g transform={transform}>
         <Person />
       </g>
     )
   }
   if (capacity === 'medium') {
     return (
-      <g transform="translate(18, 2)">
+      <g transform={transform}>
         <g transform="translate(-3.5, 0)">
           <Person />
         </g>
@@ -92,7 +104,7 @@ function People({ capacity }: { capacity: 'low' | 'medium' | 'high' }) {
   }
   if (capacity === 'low') {
     return (
-      <g transform="translate(18, 2)">
+      <g transform={transform}>
         <g transform="translate(-7,0)">
           <Person />
         </g>
