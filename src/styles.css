@@ -137,7 +137,9 @@ code {
   --color-t9: oklch(0.55 0.2085 23.98);
   --color-metro: oklch(0.56 0.0899 199.84);
   --color-sydney-trains: oklch(0.67 0.1858 46.03);
-
+  --color-capacity-low: oklab(0.6 0.21 0.11);
+    --color-capacity-medium: oklab(0.74 0.08 0.15);
+    --color-capacity-high: oklab(0.63 -0.15 0.08);
   --font-sydney-trains: 'New Frank', sans-serif;
   --animate-marquee: scroll-up 20s linear infinite;
 }

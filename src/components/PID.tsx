@@ -2,8 +2,10 @@ import { cn } from '@/lib/utils'
 import { format } from 'date-fns'
 import React from 'react'
 import { useEffect, useState } from 'react'
+import { CapacityIndicator } from './CapacityIndicator'
+import { Separator } from './ui/separator'
 
-type PIDProps = {
+type BasePIDProps = {
   time: Date | null
   destination: string
   destinationSubtitle: string | null
@@ -19,9 +21,26 @@ type PIDProps = {
     platform: string
     departsMinutes: number
   }[]
+  carCount?: number
+  capacity?: Record<number, 'low' | 'medium' | 'high' | null>
 }
 
+type PIDProps = BasePIDProps &
+  (
+    | {
+        variant: 'old'
+      }
+    | {
+        variant: 'new'
+        carCount: number
+        capacity: Record<number, 'low' | 'medium' | 'high' | null>
+      }
+  )
+
 export default function PID({
+  variant,
+  carCount,
+  capacity,
   time,
   destination,
   destinationSubtitle,
@@ -34,18 +53,31 @@ export default function PID({
 }: PIDProps) {
   return (
     <div className="aspect-video max-w-sm h-[42rem] bg-white font-sydney-trains">
-      <PIDHeader now={time} />
+      <PIDHeader now={time} variant={variant} />
       <div className="px-3">
         <PIDLine
           line={line}
           destination={destination}
           destinationSubtitle={destinationSubtitle}
         />
+        {variant === 'new' ? (
+          <CapacityIndicator carCount={carCount} capacity={capacity} />
+        ) : (
+          <Separator className={cn('my-1', variant === 'old' && 'bg-black')} />
+        )}
         <PIDBody
           stops={stops}
           platform={platform}
           departsMinutes={departsMinutes}
           badges={badges}
+          variant={variant}
+        />
+        <Separator
+          className={cn(
+            'my-1',
+            variant === 'old' && 'bg-black',
+            variant === 'new' && 'bg-sydney-trains',
+          )}
         />
         <PIDFooter nextServices={nextServices} />
       </div>
@@ -53,7 +85,13 @@ export default function PID({
   )
 }
 
-function PIDHeader({ now }: { now: Date | null }) {
+function PIDHeader({
+  now,
+  variant,
+}: {
+  now: Date | null
+  variant: 'old' | 'new'
+}) {
   const [currentTime, setCurrentTime] = useState<Date>(new Date())
 
   useEffect(() => {
@@ -70,9 +108,17 @@ function PIDHeader({ now }: { now: Date | null }) {
   const time24h = format(currentTime, 'H:mm:ss')
 
   return (
-    <div className="px-3 pt-1 pb-0.5 flex justify-between bg-sydney-trains text-white font-medium text-[1.75rem]">
-      <div>Next Service</div>
-      <div>{time24h}</div>
+    <div
+      className={cn(
+        'px-3 pt-1 pb-0.5 flex justify-between bg-sydney-trains text-white font-medium text-[1.75rem] transition-colors',
+        variant === 'new' && 'bg-zinc-700',
+      )}
+    >
+      <div>{variant === 'old' ? 'Service' : 'Next Service'}</div>
+      <div className="flex flex-row items-end gap-4 mb-1">
+        {variant === 'old' && <div className="text-sm">Time now</div>}
+        <div className="text-2xl">{time24h}</div>
+      </div>
     </div>
   )
 }
@@ -106,16 +152,24 @@ function PIDBody({
   platform,
   departsMinutes,
   badges,
+  variant,
 }: {
   stops: string[]
   platform: number
   departsMinutes: number | 'now'
   badges: string[]
+  variant: 'old' | 'new'
 }) {
   return (
-    <div className="flex flex-col min-h-[23.75rem] max-h-[24.75rem] border-y-2 border-black relative">
+    <div
+      className={cn(
+        'flex flex-col min-h-[22.25rem] relative overflow-hidden',
+        variant === 'old' && 'max-h-[24rem]',
+        variant === 'new' && 'max-h-[22rem]',
+      )}
+    >
       <div className="flex flex-col grow text-2xl my-1 mb-2 gap-2">
-        <div className="flex max-h-[22rem] h-full grow flex-col overflow-hidden">
+        <div className="flex h-full grow flex-col overflow-hidden">
           <div
             className={cn('flex flex-col grow animate-marquee')}
             style={{
@@ -128,11 +182,13 @@ function PIDBody({
             ))}
           </div>
         </div>
-        <Badges badges={badges} />
       </div>
       <div className="flex flex-col items-end absolute top-4 right-0">
         <div className="text-lg">Platform</div>
         <div className="text-4xl font-medium">{platform}</div>
+      </div>
+      <div className="bg-white absolute bottom-0 left-0 py-2">
+        <Badges badges={badges} />
       </div>
       <div className="flex flex-row justify-between absolute bottom-2 right-0">
         <div className="flex flex-col items-end">
@@ -174,7 +230,7 @@ function PIDFooter({
   }[]
 }) {
   return (
-    <div className="grid grid-cols-4 py-2">
+    <div className="grid grid-cols-4">
       <div className="col-span-2">Following Services</div>
       <div className="text-center">Platform</div>
       <div className="text-right">Departs</div>
