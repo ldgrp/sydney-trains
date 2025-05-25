@@ -21,7 +21,7 @@ import {
 } from '@/components/ui/command'
 import { useEffect, useState } from 'react'
 import { cn } from '@/lib/utils'
-import { Link } from '@tanstack/react-router'
+import { Link, useNavigate } from '@tanstack/react-router'
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -50,6 +50,7 @@ export default function StationsSheet({
 }: StationsSheetProps) {
   const isMobile = useIsMobile()
   const trpc = useTRPC()
+  const navigate = useNavigate()
   const { data: stops, isPending } = useQuery(trpc.transit.stops.queryOptions())
   const [selectedParent, setSelectedParent] = useState<{
     id: string
@@ -102,6 +103,15 @@ export default function StationsSheet({
               selectedParent ? 'Search platform...' : 'Search stop...'
             }
             className="h-9"
+            onKeyDown={(e) => {
+              if (
+                e.key === 'Backspace' &&
+                e.currentTarget.value === '' &&
+                selectedParent
+              ) {
+                setSelectedParent(null)
+              }
+            }}
             icon={
               selectedParent ? (
                 <ChevronLeft
@@ -138,30 +148,28 @@ export default function StationsSheet({
                     key={stop.id}
                     value={stop.id}
                     keywords={[stop.name]}
-                    asChild
                     className="font-sydney-trains tracking-tight"
+                    onSelect={() => {
+                      navigate({
+                        to: '/pid/$slug',
+                        params: { slug: slugify([stop.name, stop.id]) },
+                        search: {
+                          variant: 'normal',
+                          enableScrolling: true,
+                          showOccupancy: true,
+                          showStationName: true,
+                          showSettings: true,
+                        },
+                      })
+                    }}
                   >
-                    <Link
-                      to="/pid/$slug"
-                      params={{ slug: slugify([stop.name, stop.id]) }}
-                      search={{
-                        variant: 'normal',
-                        enableScrolling: true,
-                        showOccupancy: true,
-                        showStationName: true,
-                        showSettings: true,
-                      }}
-                    >
-                      {stop.name}
-                      <Check
-                        className={cn(
-                          'ml-auto',
-                          selectedStop === stop.id
-                            ? 'opacity-100'
-                            : 'opacity-0',
-                        )}
-                      />
-                    </Link>
+                    {stop.name}
+                    <Check
+                      className={cn(
+                        'ml-auto',
+                        selectedStop === stop.id ? 'opacity-100' : 'opacity-0',
+                      )}
+                    />
                   </CommandItem>
                 ))}
             </CommandGroup>
