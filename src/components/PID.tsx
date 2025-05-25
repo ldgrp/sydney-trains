@@ -52,7 +52,7 @@ export default function PID({
   nextServices,
 }: PIDProps) {
   return (
-    <div className="aspect-video max-w-sm h-[42rem] bg-white font-sydney-trains">
+    <div className="aspect-video max-w-sm h-[42rem] bg-white font-sydney-trains text-black">
       <PIDHeader now={time} variant={variant} />
       <div className="px-3">
         <PIDLine
@@ -110,7 +110,7 @@ function PIDHeader({
   return (
     <div
       className={cn(
-        'px-3 pt-1 pb-0.5 flex justify-between bg-sydney-trains text-white font-medium text-[1.75rem] transition-colors',
+        'px-3 pt-1 pb-0.5 flex justify-between bg-sydney-trains text-white font-medium text-[1.75rem] transition-colors tracking-tight',
         variant === 'new' && 'bg-zinc-700',
       )}
     >
@@ -119,6 +119,41 @@ function PIDHeader({
         {variant === 'old' && <div className="text-sm">Time now</div>}
         <div className="text-2xl">{time24h}</div>
       </div>
+    </div>
+  )
+}
+
+function LineLogo({ line }: { line: string }) {
+  const isSydneyTrains = line.startsWith('T')
+
+  if (isSydneyTrains) {
+    return (
+      <div
+        className={cn(
+          'h-16 w-16 rounded-xl flex items-center justify-center tracking-tighter text-center shrink-0  ',
+          line === 'T1' && 'bg-t1',
+          line === 'T2' && 'bg-t2',
+          line === 'T3' && 'bg-t3',
+          line === 'T4' && 'bg-t4',
+          line === 'T5' && 'bg-t5',
+          line === 'T7' && 'bg-t7',
+          line === 'T8' && 'bg-t8',
+          line === 'T9' && 'bg-t9',
+        )}
+      >
+        <span className="text-[2.625rem] text-center font-medium text-white">
+          {line}
+        </span>
+      </div>
+    )
+  }
+
+  // TODO: Is this a correct fallback?
+  return (
+    <div className="h-14 w-14 rounded-full flex items-center justify-center tracking-tighter text-center bg-sydney-trains shrink-0">
+      <span className="text-[2.75rem] text-center font-medium text-white">
+        T
+      </span>
     </div>
   )
 }
@@ -134,14 +169,12 @@ function PIDLine({
 }) {
   return (
     <div className="flex flex-row items-center py-2 gap-2">
-      <div className="h-16 w-16 rounded-xl bg-t1 flex items-center justify-center">
-        <span className="text-[2.75rem] text-center font-medium text-white">
-          {line}
-        </span>
-      </div>
+      <LineLogo line={line} />
       <div className="flex flex-col">
-        <div className="text-4xl font-medium">{destination}</div>
-        <div className="text-xl">{destinationSubtitle}</div>
+        <div className="text-4xl tracking-tight font-medium line-clamp-1">
+          {destination}
+        </div>
+        <div className="text-xl">{destinationSubtitle}&nbsp;</div>
       </div>
     </div>
   )
@@ -187,13 +220,15 @@ function PIDBody({
         <div className="text-lg">Platform</div>
         <div className="text-4xl font-medium">{platform}</div>
       </div>
-      <div className="bg-white absolute bottom-0 left-0 py-2">
+      <div className="bg-white absolute bottom-0 left-0 py-2 w-full">
         <Badges badges={badges} />
       </div>
       <div className="flex flex-row justify-between absolute bottom-2 right-0">
         <div className="flex flex-col items-end">
           <div className="text-lg">Departs</div>
-          <div className="text-4xl font-medium">{departsMinutes} min</div>
+          <div className="text-4xl font-medium">
+            {getDepartureTime(departsMinutes)}
+          </div>
         </div>
       </div>
     </div>
@@ -212,7 +247,7 @@ function Badges({ badges }: { badges: string[] }) {
 
 function Badge({ badge }: { badge: string }) {
   return (
-    <div className="bg-zinc-600 text-white px-2.5 font-bold text-sm">
+    <div className="bg-zinc-600 text-white px-2.5 font-medium tracking-tight text-sm">
       {badge}
     </div>
   )
@@ -238,16 +273,18 @@ function PIDFooter({
         <React.Fragment key={service.destination}>
           <div className="text-2xl col-span-2">
             <div className="flex flex-row">
-              <div className="flex flex-col">
-                <div className="text-2xl">{service.destination}</div>
+              <div className="flex flex-col ">
+                <div className="text-2xl line-clamp-1">
+                  {service.destination}
+                </div>
               </div>
             </div>
           </div>
           <div className="text-2xl text-center">{service.platform}</div>
-          <div className="text-2xl text-right">
-            {service.departsMinutes} min
+          <div className="text-2xl text-right whitespace-nowrap">
+            {getDepartureTime(service.departsMinutes)}
           </div>
-          <div className="col-span-4 flex flex-row gap-1">
+          <div className="col-span-4 flex flex-row gap-1 min-h-3">
             <div className="text-sm">{service.destinationSubtitle}</div>
             <Badges badges={service.badges} />
           </div>
@@ -255,4 +292,15 @@ function PIDFooter({
       ))}
     </div>
   )
+}
+
+function getDepartureTime(departsMinutes: number | 'now') {
+  if (departsMinutes === 'now') {
+    return 'Now'
+  }
+
+  if (departsMinutes < 60) {
+    return `${departsMinutes} min`
+  }
+  return `${Math.floor(departsMinutes / 60)}h ${departsMinutes % 60}m`
 }
