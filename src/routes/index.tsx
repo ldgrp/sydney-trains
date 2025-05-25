@@ -5,13 +5,14 @@ import { Link } from '@tanstack/react-router'
 import StationSign from '@/components/StationSign'
 import { Button } from '@/components/ui/button'
 import StationsSheet from '@/components/StationsSheet'
+import { useEffect } from 'react'
 
 export const Route = createFileRoute('/')({
   head: () => ({
     meta: [
       {
         property: 'og:image',
-        content: new URL('/api/og', window.location.origin).toString(),
+        content: '/api/og',
       },
     ],
   }),
@@ -32,6 +33,18 @@ const stations = [
 ]
 
 function App() {
+  useEffect(() => {
+    document
+      .querySelector('meta[property="og:image"]')
+      ?.setAttribute(
+        'content',
+        new URL(
+          `/api/og?stationName=${'Sydney Trains PID Simulator'}`,
+          window.location.origin,
+        ).toString(),
+      )
+  }, [])
+
   return (
     <div
       className={cn(

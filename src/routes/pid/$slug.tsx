@@ -14,14 +14,16 @@ import { Share, Train } from 'lucide-react'
 import { useEffect } from 'react'
 
 export const Route = createFileRoute('/pid/$slug')({
-  head: () => ({
-    meta: [
-      {
-        property: 'og:image',
-        content: '/api/og',
-      },
-    ],
-  }),
+  head: () => {
+    return {
+      meta: [
+        {
+          property: 'og:image',
+          content: '/api/og',
+        },
+      ],
+    }
+  },
   component: RouteComponent,
   validateSearch: (search: Record<string, unknown>) => {
     const parsedSettings = settingsSchema.safeParse(search)
