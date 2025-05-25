@@ -7,7 +7,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from '@/components/ui/sheet'
-import { Check } from 'lucide-react'
+import { Check, ChevronLeft, Search } from 'lucide-react'
 import { useIsMobile } from '@/hooks/use-mobile'
 import { useQuery } from '@tanstack/react-query'
 import { useTRPC } from '@/integrations/trpc/react'
@@ -19,7 +19,7 @@ import {
   CommandItem,
   CommandList,
 } from '@/components/ui/command'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { cn } from '@/lib/utils'
 import { Link } from '@tanstack/react-router'
 import {
@@ -29,8 +29,10 @@ import {
   BreadcrumbList,
   BreadcrumbSeparator,
 } from './ui/breadcrumb'
+import { Button } from './ui/button'
 
 type StationsSheetProps = {
+  defaultParentName?: string
   selectedStop: string | null
   triggerComponent: React.ReactNode
 }
@@ -42,6 +44,7 @@ function slugify(parts: string[]) {
 }
 
 export default function StationsSheet({
+  defaultParentName,
   selectedStop,
   triggerComponent,
 }: StationsSheetProps) {
@@ -51,8 +54,19 @@ export default function StationsSheet({
   const [selectedParent, setSelectedParent] = useState<{
     id: string
     name: string
+    platforms: { id: string; name: string }[]
   } | null>(null)
-  const [page, setPage] = useState<{ id: string; name: string }[] | null>(null)
+
+  useEffect(() => {
+    if (!defaultParentName) {
+      return
+    }
+    setSelectedParent(
+      stops?.find((stop) =>
+        stop.name.toLowerCase().includes(defaultParentName.toLowerCase()),
+      ) ?? null,
+    )
+  }, [defaultParentName, stops])
 
   const side = isMobile ? 'right' : 'right'
   return (
@@ -65,9 +79,9 @@ export default function StationsSheet({
             <BreadcrumbList>
               <BreadcrumbItem>
                 <BreadcrumbLink
+                  className="cursor-pointer"
                   onClick={() => {
                     setSelectedParent(null)
-                    setPage(null)
                   }}
                 >
                   Station
@@ -83,11 +97,28 @@ export default function StationsSheet({
           </Breadcrumb>
         </SheetHeader>
         <Command>
-          <CommandInput placeholder="Search stop..." className="h-9" />
+          <CommandInput
+            placeholder={
+              selectedParent ? 'Search platform...' : 'Search stop...'
+            }
+            className="h-9"
+            icon={
+              selectedParent ? (
+                <ChevronLeft
+                  className="size-4 shrink-0 opacity-50 hover:opacity-100 cursor-pointer"
+                  onClick={() => {
+                    setSelectedParent(null)
+                  }}
+                />
+              ) : (
+                <Search className="size-4 shrink-0 opacity-50" />
+              )
+            }
+          />
           <CommandList className="max-h-full">
             <CommandEmpty>No stop found.</CommandEmpty>
             <CommandGroup>
-              {!page &&
+              {!selectedParent &&
                 stops?.map((stop) => (
                   <CommandItem
                     key={stop.id}
@@ -95,23 +126,14 @@ export default function StationsSheet({
                     keywords={[stop.name]}
                     onSelect={() => {
                       setSelectedParent(stop)
-                      setPage(stop.platforms)
                     }}
                     className="font-sydney-trains tracking-tight"
                   >
                     {stop.name}
-                    <Check
-                      className={cn(
-                        'ml-auto',
-                        selectedParent?.id === stop.id
-                          ? 'opacity-100'
-                          : 'opacity-0',
-                      )}
-                    />
                   </CommandItem>
                 ))}
-              {page &&
-                page.map((stop) => (
+              {selectedParent &&
+                selectedParent.platforms.map((stop) => (
                   <CommandItem
                     key={stop.id}
                     value={stop.id}

@@ -4,6 +4,7 @@ import SettingsSheet, {
   defaultSettings,
   settingsSchema,
 } from '@/components/SettingsSheet'
+import StationSign from '@/components/StationSign'
 import StationsSheet from '@/components/StationsSheet'
 import { Button } from '@/components/ui/button'
 import { usePIDData } from '@/hooks/usePIDData'
@@ -64,9 +65,15 @@ function RouteComponent() {
         )}
       >
         {showStationName && (
-          <div className="text-4xl font-medium font-sydney-trains text-white bg-sydney-trains py-1.5 px-2 text-center tracking-tight w-sm my-4">
-            {data.stationName}
-          </div>
+          <StationsSheet
+            defaultParentName={data.stationName}
+            selectedStop={stopId}
+            triggerComponent={
+              <button>
+                <StationSign title={data.stationName} />
+              </button>
+            }
+          />
         )}
         <PIDFrame>
           <PID
@@ -113,6 +120,7 @@ function RouteComponent() {
               Share
             </Button>
             <StationsSheet
+              defaultParentName={data.stationName}
               selectedStop={stopId}
               triggerComponent={
                 <Button variant="outline">
