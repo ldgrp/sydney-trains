@@ -8,6 +8,7 @@ import duckdb_wasm from '@duckdb/duckdb-wasm/dist/duckdb-mvp.wasm?url'
 import mvp_worker from '@duckdb/duckdb-wasm/dist/duckdb-browser-mvp.worker.js?url'
 import duckdb_wasm_eh from '@duckdb/duckdb-wasm/dist/duckdb-eh.wasm?url'
 import eh_worker from '@duckdb/duckdb-wasm/dist/duckdb-browser-eh.worker.js?url'
+import { Analytics } from '@vercel/analytics/react'
 
 // Import the generated route tree
 import { routeTree } from './routeTree.gen'
@@ -45,6 +46,7 @@ export const createRouter = () => {
             <DuckDBProvider>
               <DBProvider>
                 <TanstackQuery.Provider>
+                  <Analytics />
                   {props.children}
                 </TanstackQuery.Provider>
               </DBProvider>
