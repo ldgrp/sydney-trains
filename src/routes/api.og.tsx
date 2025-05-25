@@ -1,18 +1,19 @@
 import { ImageResponse } from '@vercel/og'
 import { createAPIFileRoute } from '@tanstack/react-start/api'
 import fs from 'fs'
+import path from 'path'
 
 // read the asset
 const newFrank = fs.readFileSync(
-  new URL('../assets/fonts/New Frank Regular.otf', import.meta.url),
+  path.join(process.cwd(), 'src/assets/fonts/New Frank Regular.otf'),
 )
 
 const newFrankMedium = fs.readFileSync(
-  new URL('../assets/fonts/New Frank Medium.otf', import.meta.url),
+  path.join(process.cwd(), 'src/assets/fonts/New Frank Medium.otf'),
 )
 
 const newFrankBold = fs.readFileSync(
-  new URL('../assets/fonts/New Frank Bold.otf', import.meta.url),
+  path.join(process.cwd(), 'src/assets/fonts/New Frank Bold.otf'),
 )
 
 export const APIRoute = createAPIFileRoute('/api/og')({
