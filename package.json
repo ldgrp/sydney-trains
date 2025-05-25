@@ -13,6 +13,9 @@
     "check": "prettier --write . && eslint --fix"
   },
   "dependencies": {
+    "@duckdb/duckdb-wasm": "1.29.1-dev132.0",
+    "@duckdb/node-api": "1.2.2-alpha.19",
+    "@duckdb/react-duckdb": "1.29.1-dev132.0",
     "@faker-js/faker": "^9.6.0",
     "@hookform/resolvers": "^5.0.1",
     "@radix-ui/react-dialog": "^1.1.13",
@@ -40,6 +43,7 @@
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "date-fns": "^4.1.0",
+    "immutable": "^5.1.2",
     "lucide-react": "^0.476.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -50,7 +54,7 @@
     "tailwindcss-animate": "^1.0.7",
     "vinxi": "^0.5.3",
     "vite-tsconfig-paths": "^5.1.4",
-    "zod": "^3.24.2"
+    "zod": "^3.24.4"
   },
   "devDependencies": {
     "@tanstack/eslint-config": "^0.1.0",
