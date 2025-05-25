@@ -1,81 +1,61 @@
 import { createFileRoute } from '@tanstack/react-router'
-import PID from '@/components/PID'
-import { Switch } from '@/components/ui/switch'
-import { useState } from 'react'
+import { cn } from '@/lib/utils'
+import { Train } from 'lucide-react'
+import { Link } from '@tanstack/react-router'
+import StationSign from '@/components/StationSign'
+import { Button } from '@/components/ui/button'
+import StationsSheet from '@/components/StationsSheet'
 
 export const Route = createFileRoute('/')({
   component: App,
 })
 
+const stations = [
+  { id: 'town-hall-platform-1-2000391', name: 'Town Hall' },
+  { id: 'central-platform-23-2000343', name: 'Central' },
+  { id: 'wynyard-platform-3-2000403', name: 'Wynyard' },
+  { id: 'parramatta-platform-1-2150411', name: 'Parramatta' },
+  { id: 'chatswood-platform-1-2067141', name: 'Chatswood' },
+  { id: 'redfern-platform-6-2015136', name: 'Redfern' },
+  { id: 'circular-quay-platform-1-2000351', name: 'Circular Quay' },
+  { id: 'strathfield-platform-7-2135237', name: 'Strathfield' },
+  { id: 'bondi-junction-platform-1-202291', name: 'Bondi Junction' },
+  { id: 'erskineville-platform-1-204331', name: 'Erskineville' },
+]
+
 function App() {
-  const [variant, setVariant] = useState<'old' | 'new'>('new')
   return (
-    <div className="h-screen w-screen flex flex-col gap-2 justify-center items-center bg-t1">
-      <Switch
-        checked={variant === 'new'}
-        onCheckedChange={(checked) => setVariant(checked ? 'new' : 'old')}
-      />
-      <div className="bg-black p-2 border-[1em] border-neutral-200 border-t-neutral-100 border-l-neutral-100 shadow-lg">
-        <PID
-          variant={variant}
-          carCount={8}
-          capacity={{
-            1: 'high',
-            2: 'medium',
-            3: 'medium',
-            4: 'low',
-            5: 'high',
-            6: 'high',
-            7: 'high',
-            8: 'high',
+    <div
+      className={cn(
+        'flex min-h-screen justify-start md:justify-center p-4 flex-col gap-4 items-center bg-neutral-900',
+      )}
+    >
+      {stations.map((station) => (
+        <Link
+          key={station.id}
+          to="/pid/$slug"
+          params={{ slug: station.id }}
+          search={{
+            showStationName: true,
+            showSettings: true,
+            variant: 'normal',
+            enableScrolling: true,
+            showOccupancy: true,
           }}
-          time={null}
-          destination="Richmond"
-          destinationSubtitle="via Parramatta"
-          line="T1"
-          platform={18}
-          departsMinutes={4}
-          stops={[
-            'Redfern',
-            'Strathfield',
-            'Lidcombe',
-            'Parramatta',
-            'Westmead',
-            'Wentworthville',
-            'Pendle Hill',
-            'Toongabbie',
-            'Seven Hills',
-            'Blacktown',
-            'Marayong',
-            'Quakers Hill',
-            'Schofields',
-            'Riverstone',
-            'Vinehard',
-            'Mulgrave',
-            'Windsor',
-            'Clarendon',
-            'East Richmond',
-            'Richmond',
-          ]}
-          badges={['8 cars', 'Limited Stops']}
-          nextServices={[
-            {
-              destination: 'Penrith',
-              destinationSubtitle: 'via Parramatta',
-              platform: '18',
-              departsMinutes: 4,
-              badges: ['Limited Stops'],
-            },
-            {
-              destination: 'Hornsby',
-              platform: '18',
-              departsMinutes: 10,
-              badges: ['All Stops'],
-              destinationSubtitle: 'via Strathfield',
-            },
-          ]}
-        />
-      </div>
+        >
+          <StationSign title={station.name} />
+        </Link>
+      ))}
+
+      <StationsSheet
+        selectedStop={null}
+        triggerComponent={
+          <Button variant="outline" className="cursor-pointer">
+            <Train />
+            or select a station
+          </Button>
+        }
+      />
     </div>
   )
 }

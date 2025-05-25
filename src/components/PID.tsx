@@ -1,28 +1,35 @@
 import { cn } from '@/lib/utils'
-import { format } from 'date-fns'
+import { differenceInMinutes, format } from 'date-fns'
 import React from 'react'
 import { useEffect, useState } from 'react'
 import { CapacityIndicator } from './CapacityIndicator'
 import { Separator } from './ui/separator'
 
 type BasePIDProps = {
+  tripId: string
   time: Date | null
   destination: string
   destinationSubtitle: string | null
   line: string
-  platform: number
-  departsMinutes: number | 'now'
-  stops: string[]
+  platform: string
+  departureTime: string
+  stops: {
+    id: string
+    name: string
+  }[]
   badges: string[]
   nextServices: {
+    tripId: string
     destination: string
     destinationSubtitle?: string
     badges: string[]
     platform: string
-    departsMinutes: number
+    departureTime: string
   }[]
   carCount?: number
   capacity?: Record<number, 'low' | 'medium' | 'high' | null>
+  showOccupancy: boolean
+  enableScrolling: boolean
 }
 
 type PIDProps = BasePIDProps &
@@ -39,6 +46,8 @@ type PIDProps = BasePIDProps &
 
 export default function PID({
   variant,
+  showOccupancy,
+  enableScrolling,
   carCount,
   capacity,
   time,
@@ -46,11 +55,12 @@ export default function PID({
   destinationSubtitle,
   line,
   platform,
-  departsMinutes,
+  departureTime,
   stops,
   badges,
   nextServices,
 }: PIDProps) {
+  const isOccupancyVisible = variant === 'new' && showOccupancy
   return (
     <div className="aspect-video max-w-sm h-[42rem] bg-white font-sydney-trains text-black">
       <PIDHeader now={time} variant={variant} />
@@ -60,17 +70,22 @@ export default function PID({
           destination={destination}
           destinationSubtitle={destinationSubtitle}
         />
-        {variant === 'new' ? (
+        {isOccupancyVisible ? (
           <CapacityIndicator carCount={carCount} capacity={capacity} />
         ) : (
-          <Separator className={cn('my-1', variant === 'old' && 'bg-black')} />
+          variant === 'old' && (
+            <Separator
+              className={cn('my-1', variant === 'old' && 'bg-black')}
+            />
+          )
         )}
         <PIDBody
+          enableScrolling={enableScrolling}
           stops={stops}
           platform={platform}
-          departsMinutes={departsMinutes}
+          departureTime={departureTime}
           badges={badges}
-          variant={variant}
+          showOccupancy={isOccupancyVisible}
         />
         <Separator
           className={cn(
@@ -181,37 +196,44 @@ function PIDLine({
 }
 
 function PIDBody({
+  enableScrolling,
   stops,
   platform,
-  departsMinutes,
+  departureTime,
   badges,
-  variant,
+  showOccupancy,
 }: {
-  stops: string[]
-  platform: number
-  departsMinutes: number | 'now'
+  stops: {
+    id: string
+    name: string
+  }[]
+  platform: string
+  departureTime: string
   badges: string[]
-  variant: 'old' | 'new'
+  showOccupancy: boolean
+  enableScrolling: boolean
 }) {
   return (
     <div
       className={cn(
         'flex flex-col min-h-[22.25rem] relative overflow-hidden',
-        variant === 'old' && 'max-h-[24rem]',
-        variant === 'new' && 'max-h-[22rem]',
+        showOccupancy ? 'max-h-[22rem]' : 'max-h-[24rem]',
       )}
     >
       <div className="flex flex-col grow text-2xl my-1 mb-2 gap-2">
         <div className="flex h-full grow flex-col overflow-hidden">
           <div
-            className={cn('flex flex-col grow animate-marquee')}
+            className={cn(
+              'flex flex-col grow',
+              enableScrolling && 'animate-marquee',
+            )}
             style={{
               animationDuration: `${Math.max(20, stops.length * 2)}s`,
             }}
           >
-            <div className="grow">&nbsp;</div>
+            {enableScrolling && <div className="grow">&nbsp;</div>}
             {stops.map((stop) => (
-              <div key={stop}>{stop}</div>
+              <div key={stop.id}>{stop.name}</div>
             ))}
           </div>
         </div>
@@ -226,13 +248,34 @@ function PIDBody({
       <div className="flex flex-row justify-between absolute bottom-2 right-0">
         <div className="flex flex-col items-end">
           <div className="text-lg">Departs</div>
-          <div className="text-4xl font-medium">
-            {getDepartureTime(departsMinutes)}
-          </div>
+          <DepartureTime
+            departureTime={departureTime}
+            className="text-4xl font-medium"
+          />
         </div>
       </div>
     </div>
   )
+}
+
+function DepartureTime({
+  departureTime,
+  className,
+}: {
+  departureTime: string
+  className: string
+}) {
+  // Refreshes every 1 second toand sues getDepartureTime
+  const [time, setTime] = useState(getDepartureTime(departureTime))
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTime(getDepartureTime(departureTime))
+    }, 1000)
+    return () => clearInterval(interval)
+  }, [departureTime])
+
+  return <div className={cn(className)}>{time}</div>
 }
 
 function Badges({ badges }: { badges: string[] }) {
@@ -257,10 +300,11 @@ function PIDFooter({
   nextServices,
 }: {
   nextServices: {
+    tripId: string
     destination: string
     destinationSubtitle?: string
     platform: string
-    departsMinutes: number
+    departureTime: string
     badges: string[]
   }[]
 }) {
@@ -270,7 +314,7 @@ function PIDFooter({
       <div className="text-center">Platform</div>
       <div className="text-right">Departs</div>
       {nextServices.map((service) => (
-        <React.Fragment key={service.destination}>
+        <React.Fragment key={service.tripId}>
           <div className="text-2xl col-span-2">
             <div className="flex flex-row">
               <div className="flex flex-col ">
@@ -281,9 +325,10 @@ function PIDFooter({
             </div>
           </div>
           <div className="text-2xl text-center">{service.platform}</div>
-          <div className="text-2xl text-right whitespace-nowrap">
-            {getDepartureTime(service.departsMinutes)}
-          </div>
+          <DepartureTime
+            departureTime={service.departureTime}
+            className="text-2xl text-right whitespace-nowrap"
+          />
           <div className="col-span-4 flex flex-row gap-1 min-h-3">
             <div className="text-sm">{service.destinationSubtitle}</div>
             <Badges badges={service.badges} />
@@ -294,13 +339,14 @@ function PIDFooter({
   )
 }
 
-function getDepartureTime(departsMinutes: number | 'now') {
-  if (departsMinutes === 'now') {
-    return 'Now'
+function getDepartureTime(departureTime: string) {
+  const minutes = differenceInMinutes(new Date(departureTime), new Date())
+
+  if (minutes <= 0) {
+    return '1 min'
+  } else if (minutes > 60) {
+    return `${Math.floor(minutes / 60)}h ${minutes % 60}m`
   }
 
-  if (departsMinutes < 60) {
-    return `${departsMinutes} min`
-  }
-  return `${Math.floor(departsMinutes / 60)}h ${departsMinutes % 60}m`
+  return `${minutes} min`
 }

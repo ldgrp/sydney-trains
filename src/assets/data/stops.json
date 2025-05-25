@@ -1,0 +1,3018 @@
+[
+  {
+    "id": "233610",
+    "name": "Aberdeen",
+    "platforms": [{ "id": "233621", "name": "Aberdeen Platform 1" }]
+  },
+  {
+    "id": "228920",
+    "name": "Adamstown",
+    "platforms": [
+      { "id": "2289331", "name": "Adamstown Platform 1" },
+      { "id": "2289332", "name": "Adamstown Platform 2" }
+    ]
+  },
+  {
+    "id": "252710",
+    "name": "Albion Park",
+    "platforms": [
+      { "id": "2527161", "name": "Albion Park Platform 1" },
+      { "id": "2527162", "name": "Albion Park Platform 2" }
+    ]
+  },
+  {
+    "id": "26401",
+    "name": "Albury",
+    "platforms": [{ "id": "264086", "name": "Albury Platform 1" }]
+  },
+  {
+    "id": "222020",
+    "name": "Allawah",
+    "platforms": [
+      { "id": "2220351", "name": "Allawah Platform 1" },
+      { "id": "2220352", "name": "Allawah Platform 2" },
+      { "id": "2220353", "name": "Allawah Platform 3" },
+      { "id": "2220354", "name": "Allawah Platform 4" }
+    ]
+  },
+  {
+    "id": "23501",
+    "name": "Armidale",
+    "platforms": [{ "id": "235044", "name": "Armidale Platform 1" }]
+  },
+  {
+    "id": "220520",
+    "name": "Arncliffe",
+    "platforms": [
+      { "id": "220591", "name": "Arncliffe Platform 1" },
+      { "id": "220592", "name": "Arncliffe Platform 2" },
+      { "id": "220593", "name": "Arncliffe Platform 3" },
+      { "id": "220594", "name": "Arncliffe Platform 4" }
+    ]
+  },
+  {
+    "id": "206410",
+    "name": "Artarmon",
+    "platforms": [
+      { "id": "206451", "name": "Artarmon Platform 1" },
+      { "id": "206452", "name": "Artarmon Platform 2" }
+    ]
+  },
+  {
+    "id": "213110",
+    "name": "Ashfield",
+    "platforms": [
+      { "id": "2131121", "name": "Ashfield Platform 1" },
+      { "id": "2131122", "name": "Ashfield Platform 2" },
+      { "id": "2131123", "name": "Ashfield Platform 3" },
+      { "id": "2131124", "name": "Ashfield Platform 4" },
+      { "id": "2131125", "name": "Ashfield Platform 5" }
+    ]
+  },
+  {
+    "id": "207730",
+    "name": "Asquith",
+    "platforms": [
+      { "id": "2077291", "name": "Asquith Platform 1" },
+      { "id": "2077292", "name": "Asquith Platform 2" }
+    ]
+  },
+  {
+    "id": "214410",
+    "name": "Auburn",
+    "platforms": [
+      { "id": "2144241", "name": "Auburn Platform 1" },
+      { "id": "2144242", "name": "Auburn Platform 2" },
+      { "id": "2144243", "name": "Auburn Platform 3" },
+      { "id": "2144244", "name": "Auburn Platform 4" }
+    ]
+  },
+  {
+    "id": "251540",
+    "name": "Austinmer",
+    "platforms": [
+      { "id": "2515111", "name": "Austinmer Platform 1" },
+      { "id": "2515112", "name": "Austinmer Platform 2" }
+    ]
+  },
+  {
+    "id": "228310",
+    "name": "Awaba",
+    "platforms": [
+      { "id": "2283221", "name": "Awaba Platform 1" },
+      { "id": "2283222", "name": "Awaba Platform 2" }
+    ]
+  },
+  {
+    "id": "221610",
+    "name": "Banksia",
+    "platforms": [
+      { "id": "2216161", "name": "Banksia Platform 1" },
+      { "id": "2216162", "name": "Banksia Platform 2" },
+      { "id": "2216163", "name": "Banksia Platform 3" },
+      { "id": "2216164", "name": "Banksia Platform 4" }
+    ]
+  },
+  {
+    "id": "220010",
+    "name": "Bankstown",
+    "platforms": [
+      { "id": "2200501", "name": "Bankstown Platform 1" },
+      { "id": "2200502", "name": "Bankstown Platform 2" }
+    ]
+  },
+  {
+    "id": "220710",
+    "name": "Bardwell Park",
+    "platforms": [
+      { "id": "2207271", "name": "Bardwell Park Platform 1" },
+      { "id": "2207272", "name": "Bardwell Park Platform 2" }
+    ]
+  },
+  {
+    "id": "257420",
+    "name": "Bargo",
+    "platforms": [
+      { "id": "257461", "name": "Bargo Platform 1" },
+      { "id": "257462", "name": "Bargo Platform 2" }
+    ]
+  },
+  {
+    "id": "279538",
+    "name": "Bathurst",
+    "platforms": [
+      { "id": "2795201", "name": "Bathurst Platform 1" },
+      { "id": "2795202", "name": "Bathurst Platform 2" }
+    ]
+  },
+  {
+    "id": "211910",
+    "name": "Beecroft",
+    "platforms": [
+      { "id": "211981", "name": "Beecroft Platform 1" },
+      { "id": "211982", "name": "Beecroft Platform 2" }
+    ]
+  },
+  {
+    "id": "278620",
+    "name": "Bell",
+    "platforms": [
+      { "id": "278641", "name": "Bell Platform 1" },
+      { "id": "278642", "name": "Bell Platform 2" }
+    ]
+  },
+  {
+    "id": "251810",
+    "name": "Bellambi",
+    "platforms": [
+      { "id": "2518131", "name": "Bellambi Platform 1" },
+      { "id": "2518132", "name": "Bellambi Platform 2" }
+    ]
+  },
+  {
+    "id": "23971",
+    "name": "Bellata",
+    "platforms": [{ "id": "23973", "name": "Bellata Platform 1" }]
+  },
+  {
+    "id": "219210",
+    "name": "Belmore",
+    "platforms": [
+      { "id": "219281", "name": "Belmore Platform 1" },
+      { "id": "219282", "name": "Belmore Platform 2" }
+    ]
+  },
+  {
+    "id": "36721",
+    "name": "Benalla",
+    "platforms": [
+      { "id": "20295P1", "name": "Benalla Platform 1" },
+      { "id": "20295P2", "name": "Benalla Platform 2" }
+    ]
+  },
+  {
+    "id": "214120",
+    "name": "Berala",
+    "platforms": [
+      { "id": "2141301", "name": "Berala Platform 1" },
+      { "id": "2141302", "name": "Berala Platform 2" }
+    ]
+  },
+  {
+    "id": "232230",
+    "name": "Beresfield",
+    "platforms": [
+      { "id": "2322221", "name": "Beresfield Platform 1" },
+      { "id": "2322222", "name": "Beresfield Platform 2" }
+    ]
+  },
+  {
+    "id": "208110",
+    "name": "Berowra",
+    "platforms": [
+      { "id": "208171", "name": "Berowra Platform 1" },
+      { "id": "208172", "name": "Berowra Platform 2" },
+      { "id": "208173", "name": "Berowra Platform 3" }
+    ]
+  },
+  {
+    "id": "253510",
+    "name": "Berry",
+    "platforms": [{ "id": "253591", "name": "Berry Platform 1" }]
+  },
+  {
+    "id": "220910",
+    "name": "Beverly Hills",
+    "platforms": [
+      { "id": "2209141", "name": "Beverly Hills Platform 1" },
+      { "id": "2209142", "name": "Beverly Hills Platform 2" }
+    ]
+  },
+  {
+    "id": "220720",
+    "name": "Bexley North",
+    "platforms": [
+      { "id": "2207281", "name": "Bexley North Platform 1" },
+      { "id": "2207282", "name": "Bexley North Platform 2" }
+    ]
+  },
+  {
+    "id": "214320",
+    "name": "Birrong",
+    "platforms": [
+      { "id": "214381", "name": "Birrong Platform 1" },
+      { "id": "214382", "name": "Birrong Platform 2" }
+    ]
+  },
+  {
+    "id": "278510",
+    "name": "Blackheath",
+    "platforms": [
+      { "id": "278561", "name": "Blackheath Platform 1" },
+      { "id": "278562", "name": "Blackheath Platform 2" }
+    ]
+  },
+  {
+    "id": "214810",
+    "name": "Blacktown",
+    "platforms": [
+      { "id": "2148531", "name": "Blacktown Platform 1" },
+      { "id": "2148532", "name": "Blacktown Platform 2" },
+      { "id": "2148533", "name": "Blacktown Platform 3" },
+      { "id": "2148534", "name": "Blacktown Platform 4" },
+      { "id": "2148535", "name": "Blacktown Platform 5" },
+      { "id": "2148536", "name": "Blacktown Platform 6" },
+      { "id": "2148537", "name": "Blacktown Platform 7" }
+    ]
+  },
+  {
+    "id": "277410",
+    "name": "Blaxland",
+    "platforms": [
+      { "id": "2774111", "name": "Blaxland Platform 1" },
+      { "id": "2774112", "name": "Blaxland Platform 2" }
+    ]
+  },
+  {
+    "id": "27991",
+    "name": "Blayney",
+    "platforms": [{ "id": "27993", "name": "Blayney Platform 1" }]
+  },
+  {
+    "id": "23821",
+    "name": "Boggabri",
+    "platforms": [{ "id": "23824", "name": "Boggabri Platform 1" }]
+  },
+  {
+    "id": "254110",
+    "name": "Bomaderry (Nowra)",
+    "platforms": [
+      {
+        "id": "2541191",
+        "name": "Bomaderry (Nowra) Platform 1"
+      }
+    ]
+  },
+  {
+    "id": "253320",
+    "name": "Bombo",
+    "platforms": [{ "id": "2533201", "name": "Bombo Platform 1" }]
+  },
+  {
+    "id": "202210",
+    "name": "Bondi Junction",
+    "platforms": [
+      { "id": "202291", "name": "Bondi Junction Platform 1" },
+      { "id": "202292", "name": "Bondi Junction Platform 2" }
+    ]
+  },
+  {
+    "id": "228410",
+    "name": "Booragul",
+    "platforms": [
+      { "id": "2284161", "name": "Booragul Platform 1" },
+      { "id": "2284162", "name": "Booragul Platform 2" }
+    ]
+  },
+  {
+    "id": "257610",
+    "name": "Bowral",
+    "platforms": [
+      { "id": "2576341", "name": "Bowral Platform 1" },
+      { "id": "2576342", "name": "Bowral Platform 2" }
+    ]
+  },
+  {
+    "id": "233510",
+    "name": "Branxton",
+    "platforms": [
+      { "id": "233591", "name": "Branxton Platform 1" },
+      { "id": "233592", "name": "Branxton Platform 2" }
+    ]
+  },
+  {
+    "id": "40001",
+    "name": "Brisbane",
+    "platforms": [
+      {
+        "id": "600037",
+        "name": "Brisbane (Roma St) Platform 2"
+      }
+    ]
+  },
+  {
+    "id": "229210",
+    "name": "Broadmeadow",
+    "platforms": [
+      { "id": "229271", "name": "Broadmeadow Platform 1" },
+      { "id": "229272", "name": "Broadmeadow Platform 2" },
+      { "id": "229273", "name": "Broadmeadow Platform 3" }
+    ]
+  },
+  {
+    "id": "V20030",
+    "name": "Broadmeadows",
+    "platforms": [{ "id": "20030P3", "name": "Broadmeadows Platform 3" }]
+  },
+  {
+    "id": "28801",
+    "name": "Broken Hill",
+    "platforms": [{ "id": "288076", "name": "Broken Hill Platform 1" }]
+  },
+  {
+    "id": "278410",
+    "name": "Bullaburra",
+    "platforms": [
+      { "id": "278421", "name": "Bullaburra Platform 1" },
+      { "id": "278422", "name": "Bullaburra Platform 2" }
+    ]
+  },
+  {
+    "id": "251610",
+    "name": "Bulli",
+    "platforms": [
+      { "id": "251671", "name": "Bulli Platform 1" },
+      { "id": "251672", "name": "Bulli Platform 2" }
+    ]
+  },
+  {
+    "id": "257810",
+    "name": "Bundanoon",
+    "platforms": [
+      { "id": "257861", "name": "Bundanoon Platform 1" },
+      { "id": "257862", "name": "Bundanoon Platform 2" }
+    ]
+  },
+  {
+    "id": "26211",
+    "name": "Bungendore",
+    "platforms": [{ "id": "26215", "name": "Bungendore Platform 1" }]
+  },
+  {
+    "id": "257620",
+    "name": "Burradoo",
+    "platforms": [
+      { "id": "2576351", "name": "Burradoo Platform 1" },
+      { "id": "2576352", "name": "Burradoo Platform 2" }
+    ]
+  },
+  {
+    "id": "213410",
+    "name": "Burwood",
+    "platforms": [
+      { "id": "213491", "name": "Burwood Platform 1" },
+      { "id": "213492", "name": "Burwood Platform 2" },
+      { "id": "213493", "name": "Burwood Platform 3" },
+      { "id": "213494", "name": "Burwood Platform 4" },
+      { "id": "213495", "name": "Burwood Platform 5" },
+      { "id": "213496", "name": "Burwood Platform 6" }
+    ]
+  },
+  {
+    "id": "257129",
+    "name": "Buxton Bus",
+    "platforms": [{ "id": "257167", "name": "Buxton Bus 1" }]
+  },
+  {
+    "id": "216620",
+    "name": "Cabramatta",
+    "platforms": [
+      { "id": "2166271", "name": "Cabramatta Platform 1" },
+      { "id": "2166272", "name": "Cabramatta Platform 2" }
+    ]
+  },
+  {
+    "id": "256020",
+    "name": "Campbelltown",
+    "platforms": [
+      { "id": "2560691", "name": "Campbelltown Platform 1" },
+      { "id": "2560692", "name": "Campbelltown Platform 2" },
+      { "id": "2560693", "name": "Campbelltown Platform 3" },
+      { "id": "2560694", "name": "Campbelltown Platform 4" }
+    ]
+  },
+  {
+    "id": "219410",
+    "name": "Campsie",
+    "platforms": [
+      { "id": "2194110", "name": "Campsie Goods Platform" },
+      { "id": "2194111", "name": "Campsie Platform 1" },
+      { "id": "2194112", "name": "Campsie Platform 2" }
+    ]
+  },
+  {
+    "id": "26041",
+    "name": "Canberra",
+    "platforms": [{ "id": "26043", "name": "Canberra Platform 1" }]
+  },
+  {
+    "id": "216610",
+    "name": "Canley Vale",
+    "platforms": [
+      { "id": "2166281", "name": "Canley Vale Platform 1" },
+      { "id": "2166282", "name": "Canley Vale Platform 2" }
+    ]
+  },
+  {
+    "id": "219320",
+    "name": "Canterbury",
+    "platforms": [
+      {
+        "id": "2193110",
+        "name": "Canterbury Goods Platform"
+      },
+      { "id": "2193111", "name": "Canterbury Platform 1" },
+      { "id": "2193112", "name": "Canterbury Platform 2" }
+    ]
+  },
+  {
+    "id": "228520",
+    "name": "Cardiff",
+    "platforms": [
+      { "id": "2285361", "name": "Cardiff Platform 1" },
+      { "id": "2285362", "name": "Cardiff Platform 2" }
+    ]
+  },
+  {
+    "id": "222910",
+    "name": "Caringbah",
+    "platforms": [
+      { "id": "2229221", "name": "Caringbah Platform 1" },
+      { "id": "2229222", "name": "Caringbah Platform 2" }
+    ]
+  },
+  {
+    "id": "221810",
+    "name": "Carlton",
+    "platforms": [
+      { "id": "221891", "name": "Carlton Platform 1" },
+      { "id": "221892", "name": "Carlton Platform 2" },
+      { "id": "221893", "name": "Carlton Platform 3" },
+      { "id": "221894", "name": "Carlton Platform 4" }
+    ]
+  },
+  {
+    "id": "216330",
+    "name": "Carramar",
+    "platforms": [
+      { "id": "2163191", "name": "Carramar Platform 1" },
+      { "id": "2163192", "name": "Carramar Platform 2" }
+    ]
+  },
+  {
+    "id": "24701",
+    "name": "Casino",
+    "platforms": [{ "id": "247055", "name": "Casino Platform 1" }]
+  },
+  {
+    "id": "217030",
+    "name": "Casula",
+    "platforms": [
+      { "id": "2170811", "name": "Casula Platform 1" },
+      { "id": "2170812", "name": "Casula Platform 2" }
+    ]
+  },
+  {
+    "id": "200060",
+    "name": "Central",
+    "platforms": [
+      { "id": "2000321", "name": "Central Platform 1" },
+      { "id": "2000322", "name": "Central Platform 2" },
+      { "id": "2000323", "name": "Central Platform 3" },
+      { "id": "2000324", "name": "Central Platform 4" },
+      { "id": "2000325", "name": "Central Platform 5" },
+      { "id": "2000326", "name": "Central Platform 6" },
+      { "id": "2000327", "name": "Central Platform 7" },
+      { "id": "2000328", "name": "Central Platform 8" },
+      { "id": "2000329", "name": "Central Platform 9" },
+      { "id": "2000330", "name": "Central Platform 10" },
+      { "id": "2000331", "name": "Central Platform 11" },
+      { "id": "2000332", "name": "Central Platform 12" },
+      { "id": "2000333", "name": "Central Platform 13" },
+      { "id": "2000334", "name": "Central Platform 14" },
+      { "id": "2000335", "name": "Central Platform 15" },
+      { "id": "2000336", "name": "Central Platform 16" },
+      { "id": "2000337", "name": "Central Platform 17" },
+      { "id": "2000338", "name": "Central Platform 18" },
+      { "id": "2000339", "name": "Central Platform 19" },
+      { "id": "2000340", "name": "Central Platform 20" },
+      { "id": "2000341", "name": "Central Platform 21" },
+      { "id": "2000342", "name": "Central Platform 22" },
+      { "id": "2000343", "name": "Central Platform 23" },
+      { "id": "2000344", "name": "Central Platform 24" },
+      { "id": "2000345", "name": "Central Platform 25" }
+    ]
+  },
+  {
+    "id": "206710",
+    "name": "Chatswood",
+    "platforms": [
+      { "id": "2067141", "name": "Chatswood Platform 1" },
+      { "id": "2067144", "name": "Chatswood Platform 4" }
+    ]
+  },
+  {
+    "id": "211920",
+    "name": "Cheltenham",
+    "platforms": [
+      { "id": "211991", "name": "Cheltenham Platform 1" },
+      { "id": "211992", "name": "Cheltenham Platform 2" },
+      { "id": "211962", "name": "Cheltenham Platform 3" }
+    ]
+  },
+  {
+    "id": "216220",
+    "name": "Chester Hill",
+    "platforms": [
+      { "id": "2162191", "name": "Chester Hill Platform 1" },
+      { "id": "2162192", "name": "Chester Hill Platform 2" }
+    ]
+  },
+  {
+    "id": "200020",
+    "name": "Circular Quay",
+    "platforms": [
+      { "id": "2000351", "name": "Circular Quay Platform 1" },
+      { "id": "2000352", "name": "Circular Quay Platform 2" }
+    ]
+  },
+  {
+    "id": "275630",
+    "name": "Clarendon",
+    "platforms": [
+      { "id": "2756431", "name": "Clarendon Platform 1" },
+      { "id": "2756432", "name": "Clarendon Platform 2" }
+    ]
+  },
+  {
+    "id": "214230",
+    "name": "Clyde",
+    "platforms": [
+      { "id": "2142311", "name": "Clyde Platform 1" },
+      { "id": "2142312", "name": "Clyde Platform 2" },
+      { "id": "2142313", "name": "Clyde Platform 3" },
+      { "id": "2142314", "name": "Clyde Platform 4" },
+      { "id": "2142315", "name": "Clyde Platform 5" }
+    ]
+  },
+  {
+    "id": "250850",
+    "name": "Coalcliff",
+    "platforms": [
+      { "id": "2508151", "name": "Coalcliff Platform 1" },
+      { "id": "2508152", "name": "Coalcliff Platform 2" }
+    ]
+  },
+  {
+    "id": "228430",
+    "name": "Cockle Creek",
+    "platforms": [
+      { "id": "2284171", "name": "Cockle Creek Platform 1" },
+      { "id": "2284172", "name": "Cockle Creek Platform 2" }
+    ]
+  },
+  {
+    "id": "24501",
+    "name": "Coffs Harbour",
+    "platforms": [{ "id": "2450173", "name": "Coffs Harbour Platform 1" }]
+  },
+  {
+    "id": "251530",
+    "name": "Coledale",
+    "platforms": [
+      { "id": "2515121", "name": "Coledale Platform 1" },
+      { "id": "2515122", "name": "Coledale Platform 2" }
+    ]
+  },
+  {
+    "id": "222610",
+    "name": "Como",
+    "platforms": [
+      { "id": "2226101", "name": "Como Platform 1" },
+      { "id": "2226102", "name": "Como Platform 2" }
+    ]
+  },
+  {
+    "id": "213810",
+    "name": "Concord West",
+    "platforms": [
+      { "id": "213898", "name": "Concord West Platform 1" },
+      { "id": "213881", "name": "Concord West Platform 2" },
+      { "id": "213882", "name": "Concord West Platform 3" },
+      { "id": "213883", "name": "Concord West Platform 4" }
+    ]
+  },
+  {
+    "id": "28772",
+    "name": "Condobolin",
+    "platforms": [{ "id": "28779", "name": "Condobolin Platform 1" }]
+  },
+  {
+    "id": "250030",
+    "name": "Coniston",
+    "platforms": [
+      { "id": "2500371", "name": "Coniston Platform 1" },
+      { "id": "2500372", "name": "Coniston Platform 2" }
+    ]
+  },
+  {
+    "id": "27011",
+    "name": "Coolamon",
+    "platforms": [{ "id": "270122", "name": "Coolamon Platform 1" }]
+  },
+  {
+    "id": "25901",
+    "name": "Cootamundra",
+    "platforms": [{ "id": "25903", "name": "Cootamundra Platform 1" }]
+  },
+  {
+    "id": "251820",
+    "name": "Corrimal",
+    "platforms": [
+      { "id": "2518141", "name": "Corrimal Platform 1" },
+      { "id": "2518142", "name": "Corrimal Platform 2" }
+    ]
+  },
+  {
+    "id": "257165",
+    "name": "Couridjah Bus",
+    "platforms": [{ "id": "257166", "name": "Couridjah Bus 1" }]
+  },
+  {
+    "id": "208120",
+    "name": "Cowan",
+    "platforms": [
+      { "id": "208181", "name": "Cowan Platform 1" },
+      { "id": "208182", "name": "Cowan Platform 2" }
+    ]
+  },
+  {
+    "id": "250520",
+    "name": "Cringila",
+    "platforms": [
+      { "id": "250581", "name": "Cringila Platform 1" },
+      { "id": "250582", "name": "Cringila Platform 2" }
+    ]
+  },
+  {
+    "id": "223020",
+    "name": "Cronulla",
+    "platforms": [
+      { "id": "2230211", "name": "Cronulla Platform 1" },
+      { "id": "2230212", "name": "Cronulla Platform 2" }
+    ]
+  },
+  {
+    "id": "213210",
+    "name": "Croydon",
+    "platforms": [
+      { "id": "213281", "name": "Croydon Platform 1" },
+      { "id": "213282", "name": "Croydon Platform 2" },
+      { "id": "213283", "name": "Croydon Platform 3" },
+      { "id": "213284", "name": "Croydon Platform 4" },
+      { "id": "213285", "name": "Croydon Platform 5" }
+    ]
+  },
+  {
+    "id": "26601",
+    "name": "Culcairn",
+    "platforms": [{ "id": "26603", "name": "Culcairn Platform 1" }]
+  },
+  {
+    "id": "253020",
+    "name": "Dapto",
+    "platforms": [
+      { "id": "2530231", "name": "Dapto Platform 1" },
+      { "id": "2530232", "name": "Dapto Platform 2" },
+      { "id": "2530233", "name": "Dapto Platform 3" }
+    ]
+  },
+  {
+    "id": "28781",
+    "name": "Darnick",
+    "platforms": [{ "id": "28786", "name": "Darnick Platform 1" }]
+  },
+  {
+    "id": "211410",
+    "name": "Denistone",
+    "platforms": [
+      { "id": "2114171", "name": "Denistone Platform 1" },
+      { "id": "2114172", "name": "Denistone Platform 2" },
+      { "id": "2114173", "name": "Denistone Platform 3" },
+      { "id": "2114174", "name": "Denistone Platform 4" }
+    ]
+  },
+  {
+    "id": "202020",
+    "name": "Domestic Airport",
+    "platforms": [
+      { "id": "202091", "name": "Domestic Platform 1" },
+      { "id": "202092", "name": "Domestic Platform 2" }
+    ]
+  },
+  {
+    "id": "276710",
+    "name": "Doonside",
+    "platforms": [
+      { "id": "2767121", "name": "Doonside Platform 1" },
+      { "id": "2767122", "name": "Doonside Platform 2" },
+      { "id": "2767123", "name": "Doonside Platform 3" },
+      { "id": "2767124", "name": "Doonside Platform 4" }
+    ]
+  },
+  {
+    "id": "226420",
+    "name": "Dora Creek",
+    "platforms": [
+      { "id": "2264191", "name": "Dora Creek Platform 1" },
+      { "id": "2264192", "name": "Dora Creek Platform 2" }
+    ]
+  },
+  {
+    "id": "256910",
+    "name": "Douglas Park",
+    "platforms": [
+      { "id": "2569141", "name": "Douglas Park Platform 1" },
+      { "id": "2569142", "name": "Douglas Park Platform 2" }
+    ]
+  },
+  {
+    "id": "28301",
+    "name": "Dubbo",
+    "platforms": [{ "id": "2830143", "name": "Dubbo Platform 1" }]
+  },
+  {
+    "id": "220310",
+    "name": "Dulwich Hill",
+    "platforms": [
+      { "id": "220361", "name": "Dulwich Hill Platform 1" },
+      { "id": "220362", "name": "Dulwich Hill Platform 2" }
+    ]
+  },
+  {
+    "id": "242010",
+    "name": "Dungog",
+    "platforms": [
+      { "id": "242061", "name": "Dungog Platform 1" },
+      { "id": "242062", "name": "Dungog Platform 2" }
+    ]
+  },
+  {
+    "id": "252910",
+    "name": "Dunmore",
+    "platforms": [
+      { "id": "2529191", "name": "Dunmore Platform 1" },
+      { "id": "2529192", "name": "Dunmore Platform 2" }
+    ]
+  },
+  {
+    "id": "221320",
+    "name": "East Hills",
+    "platforms": [
+      { "id": "2213141", "name": "East Hills Platform 1" },
+      { "id": "2213142", "name": "East Hills Platform 2" },
+      { "id": "2213143", "name": "East Hills Platform 3" }
+    ]
+  },
+  {
+    "id": "232330",
+    "name": "East Maitland",
+    "platforms": [
+      { "id": "2323311", "name": "East Maitland Platform 1" },
+      { "id": "2323312", "name": "East Maitland Platform 2" }
+    ]
+  },
+  {
+    "id": "275310",
+    "name": "East Richmond",
+    "platforms": [{ "id": "2753661", "name": "East Richmond Platform 1" }]
+  },
+  {
+    "id": "212210",
+    "name": "Eastwood",
+    "platforms": [
+      { "id": "2122231", "name": "Eastwood Platform 1" },
+      { "id": "2122232", "name": "Eastwood Platform 2" },
+      { "id": "2122233", "name": "Eastwood Platform 3" },
+      { "id": "2122234", "name": "Eastwood Platform 4" }
+    ]
+  },
+  {
+    "id": "202710",
+    "name": "Edgecliff",
+    "platforms": [
+      { "id": "202761", "name": "Edgecliff Platform 1" },
+      { "id": "202762", "name": "Edgecliff Platform 2" }
+    ]
+  },
+  {
+    "id": "217426",
+    "name": "Edmondson Park",
+    "platforms": [
+      { "id": "217427", "name": "Edmondson Park Platform 1" },
+      { "id": "217428", "name": "Edmondson Park Platform 2" }
+    ]
+  },
+  {
+    "id": "275020",
+    "name": "Emu Plains",
+    "platforms": [
+      { "id": "2750491", "name": "Emu Plains Platform 1" },
+      { "id": "2750492", "name": "Emu Plains Platform 2" }
+    ]
+  },
+  {
+    "id": "223310",
+    "name": "Engadine",
+    "platforms": [
+      { "id": "2233271", "name": "Engadine Platform 1" },
+      { "id": "2233272", "name": "Engadine Platform 2" }
+    ]
+  },
+  {
+    "id": "212110",
+    "name": "Epping",
+    "platforms": [
+      { "id": "2121221", "name": "Epping Platform 1" },
+      { "id": "2121222", "name": "Epping Platform 2" },
+      { "id": "2121223", "name": "Epping Platform 3" }
+    ]
+  },
+  {
+    "id": "204310",
+    "name": "Erskineville",
+    "platforms": [
+      { "id": "204331", "name": "Erskineville Platform 1" },
+      { "id": "204332", "name": "Erskineville Platform 2" },
+      { "id": "204333", "name": "Erskineville Platform 3" },
+      { "id": "204334", "name": "Erskineville Platform 4" }
+    ]
+  },
+  {
+    "id": "28771",
+    "name": "Euabalong West",
+    "platforms": [{ "id": "28778", "name": "Euabalong West Platform 1" }]
+  },
+  {
+    "id": "24411",
+    "name": "Eungai",
+    "platforms": [{ "id": "244131", "name": "Eungai Platform 1" }]
+  },
+  {
+    "id": "257930",
+    "name": "Exeter",
+    "platforms": [
+      { "id": "257971", "name": "Exeter Platform 1" },
+      { "id": "257972", "name": "Exeter Platform 2" }
+    ]
+  },
+  {
+    "id": "216510",
+    "name": "Fairfield",
+    "platforms": [
+      { "id": "2165201", "name": "Fairfield Platform 1" },
+      { "id": "2165202", "name": "Fairfield Platform 2" }
+    ]
+  },
+  {
+    "id": "251910",
+    "name": "Fairy Meadow",
+    "platforms": [
+      { "id": "2519131", "name": "Fairy Meadow Platform 1" },
+      { "id": "2519132", "name": "Fairy Meadow Platform 2" }
+    ]
+  },
+  {
+    "id": "228330",
+    "name": "Fassifern",
+    "platforms": [
+      { "id": "2283231", "name": "Fassifern Platform 1" },
+      { "id": "2283232", "name": "Fassifern Platform 2" }
+    ]
+  },
+  {
+    "id": "277610",
+    "name": "Faulconbridge",
+    "platforms": [
+      { "id": "277661", "name": "Faulconbridge Platform 1" },
+      { "id": "277662", "name": "Faulconbridge Platform 2" }
+    ]
+  },
+  {
+    "id": "214020",
+    "name": "Flemington",
+    "platforms": [
+      { "id": "214061", "name": "Flemington Platform 1" },
+      { "id": "214062", "name": "Flemington Platform 2" },
+      { "id": "214063", "name": "Flemington Platform 3" },
+      { "id": "214064", "name": "Flemington Platform 4" }
+    ]
+  },
+  {
+    "id": "253420",
+    "name": "Gerringong",
+    "platforms": [{ "id": "253481", "name": "Gerringong Platform 1" }]
+  },
+  {
+    "id": "28311",
+    "name": "Geurie",
+    "platforms": [{ "id": "283111", "name": "Geurie Platform 1" }]
+  },
+  {
+    "id": "277310",
+    "name": "Glenbrook",
+    "platforms": [
+      { "id": "277371", "name": "Glenbrook Platform 1" },
+      { "id": "277372", "name": "Glenbrook Platform 2" }
+    ]
+  },
+  {
+    "id": "216710",
+    "name": "Glenfield",
+    "platforms": [
+      { "id": "216761", "name": "Glenfield Platform 1" },
+      { "id": "216762", "name": "Glenfield Platform 2" },
+      { "id": "216763", "name": "Glenfield Platform 3" },
+      { "id": "216765", "name": "Glenfield Platform 4" }
+    ]
+  },
+  {
+    "id": "24221",
+    "name": "Gloucester",
+    "platforms": [{ "id": "242142", "name": "Gloucester Platform 1" }]
+  },
+  {
+    "id": "207210",
+    "name": "Gordon",
+    "platforms": [
+      { "id": "207261", "name": "Gordon Platform 1" },
+      { "id": "207262", "name": "Gordon Platform 2" },
+      { "id": "207263", "name": "Gordon Platform 3" }
+    ]
+  },
+  {
+    "id": "225040",
+    "name": "Gosford",
+    "platforms": [
+      { "id": "2250791", "name": "Gosford Platform 1" },
+      { "id": "2250792", "name": "Gosford Platform 2" },
+      { "id": "2250793", "name": "Gosford Platform 3" }
+    ]
+  },
+  {
+    "id": "258010",
+    "name": "Goulburn",
+    "platforms": [
+      { "id": "258051", "name": "Goulburn Platform 1" },
+      { "id": "258052", "name": "Goulburn Platform 2" },
+      { "id": "258053", "name": "Goulburn Platform 3" }
+    ]
+  },
+  {
+    "id": "24601",
+    "name": "Grafton",
+    "platforms": [{ "id": "2460143", "name": "Grafton Platform 1" }]
+  },
+  {
+    "id": "214240",
+    "name": "Granville",
+    "platforms": [
+      { "id": "2142321", "name": "Granville Platform 1" },
+      { "id": "2142322", "name": "Granville Platform 2" },
+      { "id": "2142323", "name": "Granville Platform 3" },
+      { "id": "2142324", "name": "Granville Platform 4" }
+    ]
+  },
+  {
+    "id": "201710",
+    "name": "Green Square",
+    "platforms": [
+      { "id": "2015111", "name": "Green Square Platform 1" },
+      { "id": "2015112", "name": "Green Square Platform 2" }
+    ]
+  },
+  {
+    "id": "233410",
+    "name": "Greta",
+    "platforms": [
+      { "id": "233461", "name": "Greta Platform 1" },
+      { "id": "233462", "name": "Greta Platform 2" }
+    ]
+  },
+  {
+    "id": "26801",
+    "name": "Griffith",
+    "platforms": [{ "id": "268058", "name": "Griffith Platform 1" }]
+  },
+  {
+    "id": "216110",
+    "name": "Guildford",
+    "platforms": [
+      { "id": "2161251", "name": "Guildford Platform 1" },
+      { "id": "2161252", "name": "Guildford Platform 2" }
+    ]
+  },
+  {
+    "id": "23801",
+    "name": "Gunnedah",
+    "platforms": [{ "id": "238074", "name": "Gunnedah Platform 1" }]
+  },
+  {
+    "id": "25811",
+    "name": "Gunning",
+    "platforms": [
+      { "id": "258128", "name": "Gunning Platform 1" },
+      { "id": "258125", "name": "Gunning Platform 2" }
+    ]
+  },
+  {
+    "id": "222710",
+    "name": "Gymea",
+    "platforms": [
+      { "id": "2227101", "name": "Gymea Platform 1" },
+      { "id": "2227102", "name": "Gymea Platform 2" }
+    ]
+  },
+  {
+    "id": "230310",
+    "name": "Hamilton",
+    "platforms": [
+      { "id": "2303151", "name": "Hamilton Platform 1" },
+      { "id": "2303152", "name": "Hamilton Platform 2" }
+    ]
+  },
+  {
+    "id": "25871",
+    "name": "Harden",
+    "platforms": [
+      { "id": "25875", "name": "Harden Platform 1" },
+      { "id": "25876", "name": "Harden Platform 2" }
+    ]
+  },
+  {
+    "id": "215010",
+    "name": "Harris Park",
+    "platforms": [
+      { "id": "2150401", "name": "Harris Park Platform 1" },
+      { "id": "2150402", "name": "Harris Park Platform 2" },
+      { "id": "2150403", "name": "Harris Park Platform 3" },
+      { "id": "2150404", "name": "Harris Park Platform 4" }
+    ]
+  },
+  {
+    "id": "208310",
+    "name": "Hawkesbury River",
+    "platforms": [
+      {
+        "id": "208341",
+        "name": "Hawkesbury River Platform 1"
+      },
+      {
+        "id": "208342",
+        "name": "Hawkesbury River Platform 2"
+      }
+    ]
+  },
+  {
+    "id": "277910",
+    "name": "Hazelbrook",
+    "platforms": [
+      { "id": "277941", "name": "Hazelbrook Platform 1" },
+      { "id": "277942", "name": "Hazelbrook Platform 2" }
+    ]
+  },
+  {
+    "id": "223320",
+    "name": "Heathcote",
+    "platforms": [
+      { "id": "2233281", "name": "Heathcote Platform 1" },
+      { "id": "2233282", "name": "Heathcote Platform 2" }
+    ]
+  },
+  {
+    "id": "250810",
+    "name": "Helensburgh",
+    "platforms": [
+      { "id": "2508161", "name": "Helensburgh Platform 1" },
+      { "id": "2508162", "name": "Helensburgh Platform 2" }
+    ]
+  },
+  {
+    "id": "26581",
+    "name": "Henty",
+    "platforms": [{ "id": "26583", "name": "Henty Platform 1" }]
+  },
+  {
+    "id": "232210",
+    "name": "Hexham",
+    "platforms": [
+      { "id": "2322231", "name": "Hexham Platform 1" },
+      { "id": "2322232", "name": "Hexham Platform 2" }
+    ]
+  },
+  {
+    "id": "232010",
+    "name": "High Street",
+    "platforms": [
+      { "id": "2320301", "name": "High Street Platform 1" },
+      { "id": "2320302", "name": "High Street Platform 2" }
+    ]
+  },
+  {
+    "id": "242040",
+    "name": "Hilldale",
+    "platforms": [{ "id": "242071", "name": "Hilldale Platform 1" }]
+  },
+  {
+    "id": "217310",
+    "name": "Holsworthy",
+    "platforms": [
+      { "id": "217391", "name": "Holsworthy Platform 1" },
+      { "id": "217392", "name": "Holsworthy Platform 2" }
+    ]
+  },
+  {
+    "id": "214010",
+    "name": "Homebush",
+    "platforms": [
+      { "id": "214072", "name": "Homebush Platform 2" },
+      { "id": "214073", "name": "Homebush Platform 3" },
+      { "id": "214074", "name": "Homebush Platform 4" },
+      { "id": "214075", "name": "Homebush Platform 5" },
+      { "id": "214076", "name": "Homebush Platform 6" },
+      { "id": "214077", "name": "Homebush Platform 7" }
+    ]
+  },
+  {
+    "id": "207720",
+    "name": "Hornsby",
+    "platforms": [
+      { "id": "2077301", "name": "Hornsby Platform 1" },
+      { "id": "2077302", "name": "Hornsby Platform 2" },
+      { "id": "2077303", "name": "Hornsby Platform 3" },
+      { "id": "2077304", "name": "Hornsby Platform 4" },
+      { "id": "2077305", "name": "Hornsby Platform 5" }
+    ]
+  },
+  {
+    "id": "219310",
+    "name": "Hurlstone Park",
+    "platforms": [
+      {
+        "id": "2193121",
+        "name": "Hurlstone Park Platform 1"
+      },
+      { "id": "2193122", "name": "Hurlstone Park Platform 2" }
+    ]
+  },
+  {
+    "id": "222010",
+    "name": "Hurstville",
+    "platforms": [
+      { "id": "2220361", "name": "Hurstville Platform 1" },
+      { "id": "2220362", "name": "Hurstville Platform 2" },
+      { "id": "2220363", "name": "Hurstville Platform 3" },
+      { "id": "2220364", "name": "Hurstville Platform 4" }
+    ]
+  },
+  {
+    "id": "256510",
+    "name": "Ingleburn",
+    "platforms": [
+      { "id": "2565651", "name": "Ingleburn Platform 1" },
+      { "id": "2565652", "name": "Ingleburn Platform 2" }
+    ]
+  },
+  {
+    "id": "202030",
+    "name": "International Airport",
+    "platforms": [
+      { "id": "2020101", "name": "International Platform 1" },
+      { "id": "2020102", "name": "International Platform 2" }
+    ]
+  },
+  {
+    "id": "28782",
+    "name": "Ivanhoe",
+    "platforms": [{ "id": "28785", "name": "Ivanhoe Platform 1" }]
+  },
+  {
+    "id": "222620",
+    "name": "Jannali",
+    "platforms": [
+      { "id": "2226111", "name": "Jannali Platform 1" },
+      { "id": "2226112", "name": "Jannali Platform 2" }
+    ]
+  },
+  {
+    "id": "26631",
+    "name": "Junee",
+    "platforms": [{ "id": "266348", "name": "Junee Platform 3" }]
+  },
+  {
+    "id": "278020",
+    "name": "Katoomba",
+    "platforms": [
+      { "id": "2780201", "name": "Katoomba Platform 1" },
+      { "id": "2780202", "name": "Katoomba Platform 2" }
+    ]
+  },
+  {
+    "id": "253010",
+    "name": "Kembla Grange",
+    "platforms": [{ "id": "2526161", "name": "Kembla Grange Platform 1" }]
+  },
+  {
+    "id": "24401",
+    "name": "Kempsey",
+    "platforms": [{ "id": "244086", "name": "Kempsey Platform 1" }]
+  },
+  {
+    "id": "24391",
+    "name": "Kendall",
+    "platforms": [{ "id": "243927", "name": "Kendall Platform 1" }]
+  },
+  {
+    "id": "253330",
+    "name": "Kiama",
+    "platforms": [
+      { "id": "2533211", "name": "Kiama Platform 1" },
+      { "id": "2533212", "name": "Kiama Platform 2" }
+    ]
+  },
+  {
+    "id": "207110",
+    "name": "Killara",
+    "platforms": [
+      { "id": "207191", "name": "Killara Platform 1" },
+      { "id": "207192", "name": "Killara Platform 2" }
+    ]
+  },
+  {
+    "id": "201110",
+    "name": "Kings Cross",
+    "platforms": [
+      { "id": "201171", "name": "Kings Cross Platform 1" },
+      { "id": "201172", "name": "Kings Cross Platform 2" }
+    ]
+  },
+  {
+    "id": "220810",
+    "name": "Kingsgrove",
+    "platforms": [
+      { "id": "2208141", "name": "Kingsgrove Platform 1" },
+      { "id": "2208142", "name": "Kingsgrove Platform 2" }
+    ]
+  },
+  {
+    "id": "274720",
+    "name": "Kingswood",
+    "platforms": [
+      { "id": "2747361", "name": "Kingswood Platform 1" },
+      { "id": "2747362", "name": "Kingswood Platform 2" }
+    ]
+  },
+  {
+    "id": "223230",
+    "name": "Kirrawee",
+    "platforms": [
+      { "id": "2232271", "name": "Kirrawee Platform 1" },
+      { "id": "2232272", "name": "Kirrawee Platform 2" }
+    ]
+  },
+  {
+    "id": "221710",
+    "name": "Kogarah",
+    "platforms": [
+      { "id": "2217191", "name": "Kogarah Platform 1" },
+      { "id": "2217192", "name": "Kogarah Platform 2" },
+      { "id": "2217193", "name": "Kogarah Platform 3" },
+      { "id": "2217194", "name": "Kogarah Platform 4" }
+    ]
+  },
+  {
+    "id": "225620",
+    "name": "Koolewong",
+    "platforms": [
+      { "id": "2256451", "name": "Koolewong Platform 1" },
+      { "id": "2256452", "name": "Koolewong Platform 2" }
+    ]
+  },
+  {
+    "id": "23521",
+    "name": "Kootingal",
+    "platforms": [{ "id": "23528", "name": "Kootingal Platform 1" }]
+  },
+  {
+    "id": "228910",
+    "name": "Kotara",
+    "platforms": [
+      { "id": "2289341", "name": "Kotara Platform 1" },
+      { "id": "2289342", "name": "Kotara Platform 2" }
+    ]
+  },
+  {
+    "id": "24741",
+    "name": "Kyogle",
+    "platforms": [{ "id": "247426", "name": "Kyogle Platform 1" }]
+  },
+  {
+    "id": "219510",
+    "name": "Lakemba",
+    "platforms": [
+      { "id": "2195131", "name": "Lakemba Platform 1" },
+      { "id": "2195132", "name": "Lakemba Platform 2" }
+    ]
+  },
+  {
+    "id": "275030",
+    "name": "Lapstone",
+    "platforms": [
+      { "id": "277381", "name": "Lapstone Platform 1" },
+      { "id": "2750502", "name": "Lapstone Platform 2" }
+    ]
+  },
+  {
+    "id": "278310",
+    "name": "Lawson",
+    "platforms": [
+      { "id": "278331", "name": "Lawson Platform 1" },
+      { "id": "278332", "name": "Lawson Platform 2" }
+    ]
+  },
+  {
+    "id": "27051",
+    "name": "Leeton",
+    "platforms": [{ "id": "27054", "name": "Leeton Platform 1" }]
+  },
+  {
+    "id": "216310",
+    "name": "Leightonfield",
+    "platforms": [
+      { "id": "2163201", "name": "Leightonfield Platform 1" },
+      { "id": "2163202", "name": "Leightonfield Platform 2" }
+    ]
+  },
+  {
+    "id": "217933",
+    "name": "Leppington",
+    "platforms": [
+      { "id": "217934", "name": "Leppington Platform 1" },
+      { "id": "217935", "name": "Leppington Platform 2" },
+      { "id": "217936", "name": "Leppington Platform 3" },
+      { "id": "217937", "name": "Leppington Platform 4" }
+    ]
+  },
+  {
+    "id": "256010",
+    "name": "Leumeah",
+    "platforms": [
+      { "id": "2560701", "name": "Leumeah Platform 1" },
+      { "id": "2560702", "name": "Leumeah Platform 2" }
+    ]
+  },
+  {
+    "id": "278010",
+    "name": "Leura",
+    "platforms": [
+      { "id": "2780211", "name": "Leura Platform 1" },
+      { "id": "2780212", "name": "Leura Platform 2" }
+    ]
+  },
+  {
+    "id": "204920",
+    "name": "Lewisham",
+    "platforms": [
+      { "id": "204981", "name": "Lewisham Platform 1" },
+      { "id": "204982", "name": "Lewisham Platform 2" }
+    ]
+  },
+  {
+    "id": "214110",
+    "name": "Lidcombe",
+    "platforms": [
+      { "id": "2141316", "name": "Lidcombe Platform 0" },
+      { "id": "2141311", "name": "Lidcombe Platform 1" },
+      { "id": "2141312", "name": "Lidcombe Platform 2" },
+      { "id": "2141313", "name": "Lidcombe Platform 3" },
+      { "id": "2141314", "name": "Lidcombe Platform 4" },
+      { "id": "2141315", "name": "Lidcombe Platform 5" }
+    ]
+  },
+  {
+    "id": "277820",
+    "name": "Linden",
+    "platforms": [
+      { "id": "277871", "name": "Linden Platform 1" },
+      { "id": "277872", "name": "Linden Platform 2" }
+    ]
+  },
+  {
+    "id": "207010",
+    "name": "Lindfield",
+    "platforms": [
+      { "id": "2070141", "name": "Lindfield Platform 1" },
+      { "id": "2070142", "name": "Lindfield Platform 2" },
+      { "id": "2070143", "name": "Lindfield Platform 3" }
+    ]
+  },
+  {
+    "id": "225070",
+    "name": "Lisarow",
+    "platforms": [
+      { "id": "2250801", "name": "Lisarow Platform 1" },
+      { "id": "2250802", "name": "Lisarow Platform 2" }
+    ]
+  },
+  {
+    "id": "279010",
+    "name": "Lithgow",
+    "platforms": [
+      { "id": "2790141", "name": "Lithgow Platform 1" },
+      { "id": "2790142", "name": "Lithgow Platform 2" }
+    ]
+  },
+  {
+    "id": "217020",
+    "name": "Liverpool",
+    "platforms": [
+      { "id": "2170821", "name": "Liverpool Platform 1" },
+      { "id": "2170822", "name": "Liverpool Platform 2" },
+      { "id": "2170823", "name": "Liverpool Platform 3" },
+      { "id": "2170824", "name": "Liverpool Platform 4" }
+    ]
+  },
+  {
+    "id": "232110",
+    "name": "Lochinvar",
+    "platforms": [
+      { "id": "2321161", "name": "Lochinvar Platform 1" },
+      { "id": "2321162", "name": "Lochinvar Platform 2" }
+    ]
+  },
+  {
+    "id": "223220",
+    "name": "Loftus",
+    "platforms": [
+      { "id": "2232281", "name": "Loftus Platform 1" },
+      { "id": "2232282", "name": "Loftus Platform 2" }
+    ]
+  },
+  {
+    "id": "250510",
+    "name": "Lysaghts",
+    "platforms": [
+      { "id": "2500381", "name": "Lysaghts Platform 1" },
+      { "id": "250592", "name": "Lysaghts Platform 2" }
+    ]
+  },
+  {
+    "id": "256030",
+    "name": "Macarthur",
+    "platforms": [
+      { "id": "2560711", "name": "Macarthur Platform 1" },
+      { "id": "2560712", "name": "Macarthur Platform 2" },
+      { "id": "2560713", "name": "Macarthur Platform 3" }
+    ]
+  },
+  {
+    "id": "201520",
+    "name": "Macdonaldtown",
+    "platforms": [
+      { "id": "2015121", "name": "Macdonaldtown Platform 1" },
+      { "id": "2015122", "name": "Macdonaldtown Platform 2" }
+    ]
+  },
+  {
+    "id": "24471",
+    "name": "Macksville",
+    "platforms": [{ "id": "244738", "name": "Macksville Platform 1" }]
+  },
+  {
+    "id": "256410",
+    "name": "Macquarie Fields",
+    "platforms": [
+      {
+        "id": "2564141",
+        "name": "Macquarie Fields Platform 1"
+      },
+      {
+        "id": "2564142",
+        "name": "Macquarie Fields Platform 2"
+      }
+    ]
+  },
+  {
+    "id": "232020",
+    "name": "Maitland",
+    "platforms": [
+      { "id": "2320311", "name": "Maitland Platform 1" },
+      { "id": "2320312", "name": "Maitland Platform 2" },
+      { "id": "2320313", "name": "Maitland Platform 3" },
+      { "id": "2320314", "name": "Maitland Platform 4" },
+      { "id": "2320315", "name": "Maitland Platform 5" }
+    ]
+  },
+  {
+    "id": "214820",
+    "name": "Marayong",
+    "platforms": [
+      { "id": "2148541", "name": "Marayong Platform 1" },
+      { "id": "2148542", "name": "Marayong Platform 2" }
+    ]
+  },
+  {
+    "id": "220410",
+    "name": "Marrickville",
+    "platforms": [
+      { "id": "2204121", "name": "Marrickville Platform 1" },
+      { "id": "2204122", "name": "Marrickville Platform 2" }
+    ]
+  },
+  {
+    "id": "200030",
+    "name": "Martin Place",
+    "platforms": [
+      { "id": "2000361", "name": "Martin Place Platform 1" },
+      { "id": "2000362", "name": "Martin Place Platform 2" }
+    ]
+  },
+  {
+    "id": "242050",
+    "name": "Martins Creek",
+    "platforms": [{ "id": "242081", "name": "Martins Creek Platform 1" }]
+  },
+  {
+    "id": "257940",
+    "name": "Marulan",
+    "platforms": [
+      { "id": "257981", "name": "Marulan Platform 1" },
+      { "id": "257982", "name": "Marulan Platform 2" }
+    ]
+  },
+  {
+    "id": "202010",
+    "name": "Mascot",
+    "platforms": [
+      { "id": "2020111", "name": "Mascot Platform 1" },
+      { "id": "2020112", "name": "Mascot Platform 2" }
+    ]
+  },
+  {
+    "id": "211430",
+    "name": "Meadowbank",
+    "platforms": [
+      { "id": "2114181", "name": "Meadowbank Platform 1" },
+      { "id": "2114182", "name": "Meadowbank Platform 2" }
+    ]
+  },
+  {
+    "id": "278030",
+    "name": "Medlow Bath",
+    "platforms": [
+      { "id": "2780221", "name": "Medlow Bath Platform 1" },
+      { "id": "2780222", "name": "Medlow Bath Platform 2" }
+    ]
+  },
+  {
+    "id": "256310",
+    "name": "Menangle Park",
+    "platforms": [
+      { "id": "256321", "name": "Menangle Park Platform 1" },
+      { "id": "256322", "name": "Menangle Park Platform 2" }
+    ]
+  },
+  {
+    "id": "256810",
+    "name": "Menangle",
+    "platforms": [
+      { "id": "256851", "name": "Menangle Platform 1" },
+      { "id": "256852", "name": "Menangle Platform 2" }
+    ]
+  },
+  {
+    "id": "28791",
+    "name": "Menindee",
+    "platforms": [{ "id": "28793", "name": "Menindee Platform 1" }]
+  },
+  {
+    "id": "216010",
+    "name": "Merrylands",
+    "platforms": [
+      { "id": "2160261", "name": "Merrylands Platform 1" },
+      { "id": "2160262", "name": "Merrylands Platform 2" }
+    ]
+  },
+  {
+    "id": "232310",
+    "name": "Metford",
+    "platforms": [
+      { "id": "2323321", "name": "Metford Platform 1" },
+      { "id": "2323322", "name": "Metford Platform 2" }
+    ]
+  },
+  {
+    "id": "279821",
+    "name": "Millthorpe",
+    "platforms": [{ "id": "279822", "name": "Millthorpe Platform 1" }]
+  },
+  {
+    "id": "206110",
+    "name": "Milsons Point",
+    "platforms": [
+      { "id": "206141", "name": "Milsons Point Platform 1" },
+      { "id": "206142", "name": "Milsons Point Platform 2" }
+    ]
+  },
+  {
+    "id": "232050",
+    "name": "Mindaribba",
+    "platforms": [{ "id": "2320321", "name": "Mindaribba Platform 1" }]
+  },
+  {
+    "id": "253310",
+    "name": "Minnamurra",
+    "platforms": [{ "id": "2533221", "name": "Minnamurra Platform 1" }]
+  },
+  {
+    "id": "256610",
+    "name": "Minto",
+    "platforms": [
+      { "id": "2566241", "name": "Minto Platform 1" },
+      { "id": "2566242", "name": "Minto Platform 2" }
+    ]
+  },
+  {
+    "id": "222810",
+    "name": "Miranda",
+    "platforms": [
+      { "id": "2228131", "name": "Miranda Platform 1" },
+      { "id": "2228132", "name": "Miranda Platform 2" }
+    ]
+  },
+  {
+    "id": "257510",
+    "name": "Mittagong",
+    "platforms": [
+      { "id": "2575131", "name": "Mittagong Platform 1" },
+      { "id": "2575132", "name": "Mittagong Platform 2" }
+    ]
+  },
+  {
+    "id": "24001",
+    "name": "Moree",
+    "platforms": [{ "id": "240024", "name": "Moree Platform 1" }]
+  },
+  {
+    "id": "226410",
+    "name": "Morisset",
+    "platforms": [
+      { "id": "2264201", "name": "Morisset Platform 1" },
+      { "id": "2264202", "name": "Morisset Platform 2" }
+    ]
+  },
+  {
+    "id": "222310",
+    "name": "Mortdale",
+    "platforms": [
+      { "id": "2223291", "name": "Mortdale Platform 1" },
+      { "id": "2223292", "name": "Mortdale Platform 2" }
+    ]
+  },
+  {
+    "id": "257710",
+    "name": "Moss Vale",
+    "platforms": [
+      { "id": "2577201", "name": "Moss Vale Platform 1" },
+      { "id": "2577202", "name": "Moss Vale Platform 2" }
+    ]
+  },
+  {
+    "id": "207910",
+    "name": "Mount Colah",
+    "platforms": [
+      { "id": "2079101", "name": "Mount Colah Platform 1" },
+      { "id": "2079102", "name": "Mount Colah Platform 2" }
+    ]
+  },
+  {
+    "id": "277010",
+    "name": "Mount Druitt",
+    "platforms": [
+      { "id": "2770591", "name": "Mount Druitt Platform 1" },
+      { "id": "2770592", "name": "Mount Druitt Platform 2" },
+      { "id": "2770593", "name": "Mount Druitt Platform 3" },
+      { "id": "2770594", "name": "Mount Druitt Platform 4" }
+    ]
+  },
+  {
+    "id": "208010",
+    "name": "Mount Kuring-Gai",
+    "platforms": [
+      {
+        "id": "208041",
+        "name": "Mount Kuring-gai Platform 1"
+      },
+      {
+        "id": "208042",
+        "name": "Mount Kuring-gai Platform 2"
+      }
+    ]
+  },
+  {
+    "id": "278610",
+    "name": "Mount Victoria",
+    "platforms": [
+      { "id": "278651", "name": "Mount Victoria Platform 1" },
+      { "id": "278652", "name": "Mount Victoria Platform 2" }
+    ]
+  },
+  {
+    "id": "275610",
+    "name": "Mulgrave",
+    "platforms": [
+      { "id": "2756441", "name": "Mulgrave Platform 1" },
+      { "id": "2756442", "name": "Mulgrave Platform 2" }
+    ]
+  },
+  {
+    "id": "23381",
+    "name": "Murrurundi",
+    "platforms": [{ "id": "23383", "name": "Murrurundi Platform 1" }]
+  },
+  {
+    "id": "200040",
+    "name": "Museum",
+    "platforms": [
+      { "id": "2000371", "name": "Museum Platform 1" },
+      { "id": "2000372", "name": "Museum Platform 2" }
+    ]
+  },
+  {
+    "id": "233310",
+    "name": "MuswellBrook",
+    "platforms": [{ "id": "233321", "name": "Muswellbrook Platform 1" }]
+  },
+  {
+    "id": "24481",
+    "name": "Nambucca Heads",
+    "platforms": [{ "id": "244835", "name": "Nambucca Heads Platform 1" }]
+  },
+  {
+    "id": "2250772",
+    "name": "Narara",
+    "platforms": [
+      { "id": "2250811", "name": "Narara Platform 1" },
+      { "id": "2250812", "name": "Narara Platform 2" }
+    ]
+  },
+  {
+    "id": "23901",
+    "name": "Narrabri",
+    "platforms": [{ "id": "239029", "name": "Narrabri Platform 1" }]
+  },
+  {
+    "id": "27001",
+    "name": "Narrandera",
+    "platforms": [{ "id": "27003", "name": "Narrandera Platform 1" }]
+  },
+  {
+    "id": "220920",
+    "name": "Narwee",
+    "platforms": [
+      { "id": "2209151", "name": "Narwee Platform 1" },
+      { "id": "2209152", "name": "Narwee Platform 2" }
+    ]
+  },
+  {
+    "id": "229310",
+    "name": "Newcastle Interchange",
+    "platforms": [
+      {
+        "id": "229351",
+        "name": "Newcastle Interchange Platform 1"
+      },
+      {
+        "id": "229352",
+        "name": "Newcastle Interchange Platform 2"
+      },
+      {
+        "id": "229354",
+        "name": "Newcastle Interchange Platform 3"
+      }
+    ]
+  },
+  {
+    "id": "204210",
+    "name": "Newtown",
+    "platforms": [
+      { "id": "204261", "name": "Newtown Platform 1" },
+      { "id": "204262", "name": "Newtown Platform 2" }
+    ]
+  },
+  {
+    "id": "225060",
+    "name": "Niagara Park",
+    "platforms": [
+      { "id": "2250821", "name": "Niagara Park Platform 1" },
+      { "id": "2250822", "name": "Niagara Park Platform 2" }
+    ]
+  },
+  {
+    "id": "207620",
+    "name": "Normanhurst",
+    "platforms": [
+      { "id": "2076231", "name": "Normanhurst Platform 1" },
+      { "id": "2076232", "name": "Normanhurst Platform 2" }
+    ]
+  },
+  {
+    "id": "213710",
+    "name": "North Strathfield",
+    "platforms": [
+      {
+        "id": "2137171",
+        "name": "North Strathfield Platform 1"
+      },
+      {
+        "id": "2137172",
+        "name": "North Strathfield Platform 2"
+      },
+      {
+        "id": "2137173",
+        "name": "North Strathfield Platform 3"
+      }
+    ]
+  },
+  {
+    "id": "206010",
+    "name": "North Sydney",
+    "platforms": [
+      { "id": "2060101", "name": "North Sydney Platform 1" },
+      { "id": "2060102", "name": "North Sydney Platform 2" },
+      { "id": "2060103", "name": "North Sydney Platform 3" },
+      { "id": "2060104", "name": "North Sydney Platform 4" }
+    ]
+  },
+  {
+    "id": "250010",
+    "name": "North Wollongong",
+    "platforms": [
+      {
+        "id": "2500391",
+        "name": "North Wollongong Platform 1"
+      },
+      {
+        "id": "2500392",
+        "name": "North Wollongong Platform 2"
+      }
+    ]
+  },
+  {
+    "id": "252920",
+    "name": "Oak Flats",
+    "platforms": [{ "id": "2529201", "name": "Oak Flats Platform 1" }]
+  },
+  {
+    "id": "222320",
+    "name": "Oatley",
+    "platforms": [
+      { "id": "2223301", "name": "Oatley Platform 1" },
+      { "id": "2223302", "name": "Oatley Platform 2" }
+    ]
+  },
+  {
+    "id": "212710",
+    "name": "Olympic Park",
+    "platforms": [
+      { "id": "2127102", "name": "Olympic Park Platform 2" },
+      { "id": "2127103", "name": "Olympic Park Platform 3" }
+    ]
+  },
+  {
+    "id": "28001",
+    "name": "Orange",
+    "platforms": [{ "id": "280092", "name": "Orange Platform 1" }]
+  },
+  {
+    "id": "250830",
+    "name": "Otford",
+    "platforms": [
+      { "id": "2508171", "name": "Otford Platform 1" },
+      { "id": "2508172", "name": "Otford Platform 2" }
+    ]
+  },
+  {
+    "id": "225810",
+    "name": "Ourimbah",
+    "platforms": [
+      { "id": "2258111", "name": "Ourimbah Platform 1" },
+      { "id": "2258112", "name": "Ourimbah Platform 2" }
+    ]
+  },
+  {
+    "id": "221110",
+    "name": "Padstow",
+    "platforms": [
+      { "id": "2211141", "name": "Padstow Platform 1" },
+      { "id": "2211142", "name": "Padstow Platform 2" }
+    ]
+  },
+  {
+    "id": "221310",
+    "name": "Panania",
+    "platforms": [
+      { "id": "2213151", "name": "Panania Platform 1" },
+      { "id": "2213152", "name": "Panania Platform 2" }
+    ]
+  },
+  {
+    "id": "28701",
+    "name": "Parkes",
+    "platforms": [{ "id": "287054", "name": "Parkes Platform 1" }]
+  },
+  {
+    "id": "215020",
+    "name": "Parramatta",
+    "platforms": [
+      { "id": "2150411", "name": "Parramatta Platform 1" },
+      { "id": "2150412", "name": "Parramatta Platform 2" },
+      { "id": "2150413", "name": "Parramatta Platform 3" },
+      { "id": "2150414", "name": "Parramatta Platform 4" }
+    ]
+  },
+  {
+    "id": "242110",
+    "name": "Paterson",
+    "platforms": [{ "id": "242141", "name": "Paterson Platform 1" }]
+  },
+  {
+    "id": "214530",
+    "name": "Pendle Hill",
+    "platforms": [
+      { "id": "2145641", "name": "Pendle Hill Platform 1" },
+      { "id": "2145642", "name": "Pendle Hill Platform 2" },
+      { "id": "2145643", "name": "Pendle Hill Platform 3" },
+      { "id": "2145644", "name": "Pendle Hill Platform 4" }
+    ]
+  },
+  {
+    "id": "212020",
+    "name": "Pennant Hills",
+    "platforms": [
+      { "id": "2120201", "name": "Pennant Hills Platform 1" },
+      { "id": "2120202", "name": "Pennant Hills Platform 2" },
+      { "id": "212042", "name": "Pennant Hills Platform 3" }
+    ]
+  },
+  {
+    "id": "275010",
+    "name": "Penrith",
+    "platforms": [
+      { "id": "2750511", "name": "Penrith Platform 1" },
+      { "id": "2750512", "name": "Penrith Platform 2" },
+      { "id": "2750513", "name": "Penrith Platform 3" }
+    ]
+  },
+  {
+    "id": "257920",
+    "name": "Penrose",
+    "platforms": [
+      { "id": "257991", "name": "Penrose Platform 1" },
+      { "id": "257992", "name": "Penrose Platform 2" }
+    ]
+  },
+  {
+    "id": "222210",
+    "name": "Penshurst",
+    "platforms": [
+      { "id": "2222131", "name": "Penshurst Platform 1" },
+      { "id": "2222132", "name": "Penshurst Platform 2" }
+    ]
+  },
+  {
+    "id": "60041",
+    "name": "Perth",
+    "platforms": [{ "id": "60042", "name": "Perth Platform 1" }]
+  },
+  {
+    "id": "204910",
+    "name": "Petersham",
+    "platforms": [
+      { "id": "204991", "name": "Petersham Platform 1" },
+      { "id": "204992", "name": "Petersham Platform 2" }
+    ]
+  },
+  {
+    "id": "257110",
+    "name": "Picton",
+    "platforms": [
+      { "id": "2571161", "name": "Picton Platform 1" },
+      { "id": "2571162", "name": "Picton Platform 2" }
+    ]
+  },
+  {
+    "id": "225030",
+    "name": "Point Clare",
+    "platforms": [
+      { "id": "2250831", "name": "Point Clare Platform 1" },
+      { "id": "2250832", "name": "Point Clare Platform 2" }
+    ]
+  },
+  {
+    "id": "250530",
+    "name": "Port Kembla North",
+    "platforms": [
+      {
+        "id": "2505101",
+        "name": "Port Kembla North Platform 1"
+      }
+    ]
+  },
+  {
+    "id": "250540",
+    "name": "Port Kembla",
+    "platforms": [{ "id": "2505111", "name": "Port Kembla Platform 1" }]
+  },
+  {
+    "id": "219610",
+    "name": "Punchbowl",
+    "platforms": [
+      { "id": "2196291", "name": "Punchbowl Platform 1" },
+      { "id": "2196292", "name": "Punchbowl Platform 2" }
+    ]
+  },
+  {
+    "id": "207310",
+    "name": "Pymble",
+    "platforms": [
+      { "id": "2073161", "name": "Pymble Platform 1" },
+      { "id": "2073162", "name": "Pymble Platform 2" }
+    ]
+  },
+  {
+    "id": "276310",
+    "name": "Quakers Hill",
+    "platforms": [
+      { "id": "2763171", "name": "Quakers Hill Platform 1" },
+      { "id": "2763172", "name": "Quakers Hill Platform 2" }
+    ]
+  },
+  {
+    "id": "26201",
+    "name": "Queanbeyan",
+    "platforms": [{ "id": "262030", "name": "Queanbeyan Platform 1" }]
+  },
+  {
+    "id": "23431",
+    "name": "Quirindi",
+    "platforms": [{ "id": "234313", "name": "Quirindi Platform 1" }]
+  },
+  {
+    "id": "2795999",
+    "name": "Raglan Bus",
+    "platforms": [
+      { "id": "279536", "name": "Raglan Bus 1" },
+      { "id": "279535", "name": "Raglan Bus 2" }
+    ]
+  },
+  {
+    "id": "2577209",
+    "name": "Ranelagh House Bus",
+    "platforms": [{ "id": "2577901", "name": "Ranelagh House Platform 1" }]
+  },
+  {
+    "id": "201510",
+    "name": "Redfern",
+    "platforms": [
+      { "id": "2015131", "name": "Redfern Platform 1" },
+      { "id": "2015132", "name": "Redfern Platform 2" },
+      { "id": "2015133", "name": "Redfern Platform 3" },
+      { "id": "2015134", "name": "Redfern Platform 4" },
+      { "id": "2015135", "name": "Redfern Platform 5" },
+      { "id": "2015136", "name": "Redfern Platform 6" },
+      { "id": "2015137", "name": "Redfern Platform 7" },
+      { "id": "2015138", "name": "Redfern Platform 8" },
+      { "id": "2015139", "name": "Redfern Platform 9" },
+      { "id": "2015140", "name": "Redfern Platform 10" },
+      { "id": "2015141", "name": "Redfern Platform 11" },
+      { "id": "2015142", "name": "Redfern Platform 12" }
+    ]
+  },
+  {
+    "id": "214310",
+    "name": "Regents Park",
+    "platforms": [
+      { "id": "214391", "name": "Regents Park Platform 1" },
+      { "id": "214392", "name": "Regents Park Platform 2" }
+    ]
+  },
+  {
+    "id": "221210",
+    "name": "Revesby",
+    "platforms": [
+      { "id": "2212161", "name": "Revesby Platform 1" },
+      { "id": "2212162", "name": "Revesby Platform 2" },
+      { "id": "2212163", "name": "Revesby Platform 3" },
+      { "id": "2212164", "name": "Revesby Platform 4" }
+    ]
+  },
+  {
+    "id": "213820",
+    "name": "Rhodes",
+    "platforms": [
+      { "id": "213891", "name": "Rhodes Platform 1" },
+      { "id": "213892", "name": "Rhodes Platform 2" },
+      { "id": "213893", "name": "Rhodes Platform 3" }
+    ]
+  },
+  {
+    "id": "275320",
+    "name": "Richmond",
+    "platforms": [
+      { "id": "2753671", "name": "Richmond Platform 1" },
+      { "id": "2753672", "name": "Richmond Platform 2" }
+    ]
+  },
+  {
+    "id": "276510",
+    "name": "Riverstone",
+    "platforms": [
+      { "id": "2765291", "name": "Riverstone Platform 1" },
+      { "id": "2765292", "name": "Riverstone Platform 2" }
+    ]
+  },
+  {
+    "id": "221010",
+    "name": "Riverwood",
+    "platforms": [
+      { "id": "2210321", "name": "Riverwood Platform 1" },
+      { "id": "2210322", "name": "Riverwood Platform 2" }
+    ]
+  },
+  {
+    "id": "2577146",
+    "name": "Robertson Bus",
+    "platforms": [{ "id": "2577143", "name": "Robertson Bus 1" }]
+  },
+  {
+    "id": "221620",
+    "name": "Rockdale",
+    "platforms": [
+      { "id": "2216172", "name": "Rockdale Platform 2" },
+      { "id": "2216173", "name": "Rockdale Platform 3" },
+      { "id": "2216174", "name": "Rockdale Platform 4" },
+      { "id": "2216175", "name": "Rockdale Platform 5" }
+    ]
+  },
+  {
+    "id": "276610",
+    "name": "Rooty Hill",
+    "platforms": [
+      { "id": "2766141", "name": "Rooty Hill Platform 1" },
+      { "id": "2766142", "name": "Rooty Hill Platform 2" },
+      { "id": "2766143", "name": "Rooty Hill Platform 3" },
+      { "id": "2766144", "name": "Rooty Hill Platform 4" }
+    ]
+  },
+  {
+    "id": "206910",
+    "name": "Roseville",
+    "platforms": [
+      { "id": "2069131", "name": "Roseville Platform 1" },
+      { "id": "2069132", "name": "Roseville Platform 2" }
+    ]
+  },
+  {
+    "id": "2790128",
+    "name": "Rydal",
+    "platforms": [{ "id": "2790154", "name": "Rydal Platform 1" }]
+  },
+  {
+    "id": "230430",
+    "name": "Sandgate",
+    "platforms": [
+      { "id": "2304291", "name": "Sandgate Platform 1" },
+      { "id": "2304292", "name": "Sandgate Platform 2" }
+    ]
+  },
+  {
+    "id": "24521",
+    "name": "Sawtell",
+    "platforms": [{ "id": "245240", "name": "Sawtell Platform 1" }]
+  },
+  {
+    "id": "251510",
+    "name": "Scarborough",
+    "platforms": [
+      { "id": "2515131", "name": "Scarborough Platform 1" },
+      { "id": "2515132", "name": "Scarborough Platform 2" }
+    ]
+  },
+  {
+    "id": "276220",
+    "name": "Schofields",
+    "platforms": [
+      { "id": "2762121", "name": "Schofields Platform 1" },
+      { "id": "2762122", "name": "Schofields Platform 2" }
+    ]
+  },
+  {
+    "id": "233710",
+    "name": "Scone",
+    "platforms": [{ "id": "233731", "name": "Scone Platform 1" }]
+  },
+  {
+    "id": "216210",
+    "name": "Sefton",
+    "platforms": [
+      { "id": "2162201", "name": "Sefton Platform 1" },
+      { "id": "2162202", "name": "Sefton Platform 2" }
+    ]
+  },
+  {
+    "id": "214710",
+    "name": "Seven Hills",
+    "platforms": [
+      { "id": "2147421", "name": "Seven Hills Platform 1" },
+      { "id": "2147422", "name": "Seven Hills Platform 2" },
+      { "id": "2147423", "name": "Seven Hills Platform 3" },
+      { "id": "2147424", "name": "Seven Hills Platform 4" }
+    ]
+  },
+  {
+    "id": "V17191",
+    "name": "Seymour",
+    "platforms": [{ "id": "17191P1", "name": "Seymour Platform 1" }]
+  },
+  {
+    "id": "2529218",
+    "name": "Shellharbour Junction",
+    "platforms": [
+      {
+        "id": "2529219",
+        "name": "Shellharbour Junction Platform 1"
+      },
+      {
+        "id": "2529220",
+        "name": "Shellharbour Junction Platform 2"
+      }
+    ]
+  },
+  {
+    "id": "233010",
+    "name": "Singleton",
+    "platforms": [{ "id": "2330181", "name": "Singleton Platform 1" }]
+  },
+  {
+    "id": "V22180",
+    "name": "Southern Cross",
+    "platforms": [
+      {
+        "id": "22180P1",
+        "name": "Southern Cross Platform 1"
+      },
+      { "id": "22180P2", "name": "Southern Cross Platform 2" }
+    ]
+  },
+  {
+    "id": "277720",
+    "name": "Springwood",
+    "platforms": [
+      { "id": "2777191", "name": "Springwood Platform 1" },
+      { "id": "2777192", "name": "Springwood Platform 2" }
+    ]
+  },
+  {
+    "id": "200050",
+    "name": "St James",
+    "platforms": [
+      { "id": "2000381", "name": "St James Platform 1" },
+      { "id": "2000382", "name": "St James Platform 2" }
+    ]
+  },
+  {
+    "id": "206520",
+    "name": "St Leonards",
+    "platforms": [
+      { "id": "2065152", "name": "St Leonards Platform 2" },
+      { "id": "2065153", "name": "St Leonards Platform 3" }
+    ]
+  },
+  {
+    "id": "276010",
+    "name": "St Marys",
+    "platforms": [
+      { "id": "2760301", "name": "St Marys Platform 1" },
+      { "id": "2760302", "name": "St Marys Platform 2" },
+      { "id": "2760303", "name": "St Marys Platform 3" },
+      { "id": "2760304", "name": "St Marys Platform 4" }
+    ]
+  },
+  {
+    "id": "204410",
+    "name": "St Peters",
+    "platforms": [
+      { "id": "204461", "name": "St Peters Platform 1" },
+      { "id": "204462", "name": "St Peters Platform 2" },
+      { "id": "204463", "name": "St Peters Platform 3" },
+      { "id": "204464", "name": "St Peters Platform 4" }
+    ]
+  },
+  {
+    "id": "204810",
+    "name": "Stanmore",
+    "platforms": [
+      { "id": "204831", "name": "Stanmore Platform 1" },
+      { "id": "204832", "name": "Stanmore Platform 2" },
+      { "id": "204833", "name": "Stanmore Platform 3" }
+    ]
+  },
+  {
+    "id": "250840",
+    "name": "Stanwell Park",
+    "platforms": [
+      { "id": "2508181", "name": "Stanwell Park Platform 1" },
+      { "id": "2508182", "name": "Stanwell Park Platform 2" }
+    ]
+  },
+  {
+    "id": "213510",
+    "name": "Strathfield",
+    "platforms": [
+      { "id": "2135231", "name": "Strathfield Platform 1" },
+      { "id": "2135232", "name": "Strathfield Platform 2" },
+      { "id": "2135233", "name": "Strathfield Platform 3" },
+      { "id": "2135234", "name": "Strathfield Platform 4" },
+      { "id": "2135235", "name": "Strathfield Platform 5" },
+      { "id": "2135236", "name": "Strathfield Platform 6" },
+      { "id": "2135237", "name": "Strathfield Platform 7" },
+      { "id": "2135238", "name": "Strathfield Platform 8" }
+    ]
+  },
+  {
+    "id": "28201",
+    "name": "Stuart Town",
+    "platforms": [{ "id": "282024", "name": "Stuart Town Platform 1" }]
+  },
+  {
+    "id": "213010",
+    "name": "Summer Hill",
+    "platforms": [
+      { "id": "213051", "name": "Summer Hill Platform 1" },
+      { "id": "213052", "name": "Summer Hill Platform 2" },
+      { "id": "213053", "name": "Summer Hill Platform 3" }
+    ]
+  },
+  {
+    "id": "223210",
+    "name": "Sutherland",
+    "platforms": [
+      { "id": "2232291", "name": "Sutherland Platform 1" },
+      { "id": "2232292", "name": "Sutherland Platform 2" },
+      { "id": "2232293", "name": "Sutherland Platform 3" }
+    ]
+  },
+  {
+    "id": "204420",
+    "name": "Sydenham",
+    "platforms": [
+      { "id": "204473", "name": "Sydenham Platform 3" },
+      { "id": "204474", "name": "Sydenham Platform 4" },
+      { "id": "204475", "name": "Sydenham Platform 5" },
+      { "id": "204476", "name": "Sydenham Platform 6" }
+    ]
+  },
+  {
+    "id": "257310",
+    "name": "Tahmoor",
+    "platforms": [
+      { "id": "257361", "name": "Tahmoor Platform 1" },
+      { "id": "257362", "name": "Tahmoor Platform 2" }
+    ]
+  },
+  {
+    "id": "257950",
+    "name": "Tallong",
+    "platforms": [
+      { "id": "2579101", "name": "Tallong Platform 1" },
+      { "id": "2579102", "name": "Tallong Platform 2" }
+    ]
+  },
+  {
+    "id": "234012",
+    "name": "Tamworth",
+    "platforms": [{ "id": "2340108", "name": "Tamworth Platform 1" }]
+  },
+  {
+    "id": "258011",
+    "name": "Tarago",
+    "platforms": [{ "id": "258089", "name": "Tarago Platform 1" }]
+  },
+  {
+    "id": "27871",
+    "name": "Tarana",
+    "platforms": [{ "id": "27874", "name": "Tarana Platform 1" }]
+  },
+  {
+    "id": "24301",
+    "name": "Taree",
+    "platforms": [{ "id": "243067", "name": "Taree Platform 1" }]
+  },
+  {
+    "id": "232220",
+    "name": "Tarro",
+    "platforms": [
+      { "id": "2322241", "name": "Tarro Platform 1" },
+      { "id": "2322242", "name": "Tarro Platform 2" }
+    ]
+  },
+  {
+    "id": "225020",
+    "name": "Tascott",
+    "platforms": [
+      { "id": "2250841", "name": "Tascott Platform 1" },
+      { "id": "2250842", "name": "Tascott Platform 2" }
+    ]
+  },
+  {
+    "id": "232030",
+    "name": "Telarah",
+    "platforms": [{ "id": "2320331", "name": "Telarah Platform 1" }]
+  },
+  {
+    "id": "204430",
+    "name": "Tempe",
+    "platforms": [
+      { "id": "204481", "name": "Tempe Platform 1" },
+      { "id": "204482", "name": "Tempe Platform 2" },
+      { "id": "204483", "name": "Tempe Platform 3" },
+      { "id": "204484", "name": "Tempe Platform 4" }
+    ]
+  },
+  {
+    "id": "228420",
+    "name": "Teralba",
+    "platforms": [
+      { "id": "2284181", "name": "Teralba Platform 1" },
+      { "id": "2284182", "name": "Teralba Platform 2" }
+    ]
+  },
+  {
+    "id": "26551",
+    "name": "The Rock",
+    "platforms": [{ "id": "26553", "name": "The Rock Platform 1" }]
+  },
+  {
+    "id": "257225",
+    "name": "Thirlmere Bus",
+    "platforms": [{ "id": "257214", "name": "Thirlmere Bus 1" }]
+  },
+  {
+    "id": "251550",
+    "name": "Thirroul",
+    "platforms": [
+      { "id": "2515141", "name": "Thirroul Platform 1" },
+      { "id": "2515142", "name": "Thirroul Platform 2" },
+      { "id": "2515143", "name": "Thirroul Platform 3" }
+    ]
+  },
+  {
+    "id": "212010",
+    "name": "Thornleigh",
+    "platforms": [
+      { "id": "2120211", "name": "Thornleigh Platform 1" },
+      { "id": "2120212", "name": "Thornleigh Platform 2" },
+      { "id": "2120213", "name": "Thornleigh Platform 3" }
+    ]
+  },
+  {
+    "id": "232240",
+    "name": "Thornton",
+    "platforms": [
+      { "id": "2322251", "name": "Thornton Platform 1" },
+      { "id": "2322252", "name": "Thornton Platform 2" }
+    ]
+  },
+  {
+    "id": "214610",
+    "name": "Toongabbie",
+    "platforms": [
+      { "id": "2146111", "name": "Toongabbie Platform 1" },
+      { "id": "2146112", "name": "Toongabbie Platform 2" },
+      { "id": "2146113", "name": "Toongabbie Platform 3" },
+      { "id": "2146114", "name": "Toongabbie Platform 4" }
+    ]
+  },
+  {
+    "id": "200070",
+    "name": "Town Hall",
+    "platforms": [
+      { "id": "2000391", "name": "Town Hall Platform 1" },
+      { "id": "2000392", "name": "Town Hall Platform 2" },
+      { "id": "2000393", "name": "Town Hall Platform 3" },
+      { "id": "2000394", "name": "Town Hall Platform 4" },
+      { "id": "2000395", "name": "Town Hall Platform 5" },
+      { "id": "2000396", "name": "Town Hall Platform 6" }
+    ]
+  },
+  {
+    "id": "251830",
+    "name": "Towradgi",
+    "platforms": [
+      { "id": "2518151", "name": "Towradgi Platform 1" },
+      { "id": "2518152", "name": "Towradgi Platform 2" }
+    ]
+  },
+  {
+    "id": "225910",
+    "name": "Tuggerah",
+    "platforms": [
+      { "id": "2259911", "name": "Tuggerah Platform 1" },
+      { "id": "2259912", "name": "Tuggerah Platform 2" }
+    ]
+  },
+  {
+    "id": "207410",
+    "name": "Turramurra",
+    "platforms": [
+      { "id": "2074181", "name": "Turramurra Platform 1" },
+      { "id": "2074182", "name": "Turramurra Platform 2" }
+    ]
+  },
+  {
+    "id": "220530",
+    "name": "Turrella",
+    "platforms": [
+      { "id": "2205101", "name": "Turrella Platform 1" },
+      { "id": "2205102", "name": "Turrella Platform 2" }
+    ]
+  },
+  {
+    "id": "252610",
+    "name": "Unanderra",
+    "platforms": [
+      { "id": "2526171", "name": "Unanderra Platform 1" },
+      { "id": "2526172", "name": "Unanderra Platform 2" }
+    ]
+  },
+  {
+    "id": "235813",
+    "name": "Uralla",
+    "platforms": [{ "id": "235824", "name": "Uralla Platform 1" }]
+  },
+  {
+    "id": "24551",
+    "name": "Urunga",
+    "platforms": [{ "id": "245526", "name": "Urunga Platform 1" }]
+  },
+  {
+    "id": "277710",
+    "name": "Valley Heights",
+    "platforms": [
+      {
+        "id": "2777201",
+        "name": "Valley Heights Platform 1"
+      },
+      { "id": "2777202", "name": "Valley Heights Platform 2" }
+    ]
+  },
+  {
+    "id": "232320",
+    "name": "Victoria Street",
+    "platforms": [
+      {
+        "id": "2323331",
+        "name": "Victoria Street Platform 1"
+      },
+      {
+        "id": "2323332",
+        "name": "Victoria Street Platform 2"
+      }
+    ]
+  },
+  {
+    "id": "216320",
+    "name": "Villawood",
+    "platforms": [
+      { "id": "2163211", "name": "Villawood Platform 1" },
+      { "id": "2163212", "name": "Villawood Platform 2" }
+    ]
+  },
+  {
+    "id": "276520",
+    "name": "Vineyard",
+    "platforms": [{ "id": "2765301", "name": "Vineyard Platform 1" }]
+  },
+  {
+    "id": "26501",
+    "name": "Wagga Wagga",
+    "platforms": [{ "id": "2650135", "name": "Wagga Wagga Platform 1" }]
+  },
+  {
+    "id": "207610",
+    "name": "Wahroonga",
+    "platforms": [
+      { "id": "2076241", "name": "Wahroonga Platform 1" },
+      { "id": "2076242", "name": "Wahroonga Platform 2" }
+    ]
+  },
+  {
+    "id": "207710",
+    "name": "Waitara",
+    "platforms": [
+      { "id": "2077311", "name": "Waitara Platform 1" },
+      { "id": "2077312", "name": "Waitara Platform 2" }
+    ]
+  },
+  {
+    "id": "23541",
+    "name": "Walcha Road",
+    "platforms": [{ "id": "23544", "name": "Walcha Road Platform 1" }]
+  },
+  {
+    "id": "242020",
+    "name": "Wallarobba",
+    "platforms": [{ "id": "242091", "name": "Wallarobba Platform 1" }]
+  },
+  {
+    "id": "2845999",
+    "name": "Wallerawang Bus",
+    "platforms": [
+      { "id": "284515", "name": "Wallerawang Bus 1" },
+      { "id": "284514", "name": "Wallerawang Bus 2" }
+    ]
+  },
+  {
+    "id": "36771",
+    "name": "Wangaratta",
+    "platforms": [
+      { "id": "20356P1", "name": "Wangaratta Platform 1" },
+      { "id": "20356P2", "name": "Wangaratta Platform 2" }
+    ]
+  },
+  {
+    "id": "230420",
+    "name": "Warabrook",
+    "platforms": [
+      { "id": "2304301", "name": "Warabrook Platform 1" },
+      { "id": "2304302", "name": "Warabrook Platform 2" }
+    ]
+  },
+  {
+    "id": "230410",
+    "name": "Waratah",
+    "platforms": [
+      { "id": "2304311", "name": "Waratah Platform 1" },
+      { "id": "2304312", "name": "Waratah Platform 2" }
+    ]
+  },
+  {
+    "id": "225930",
+    "name": "Warnervale",
+    "platforms": [
+      { "id": "2259921", "name": "Warnervale Platform 1" },
+      { "id": "2259922", "name": "Warnervale Platform 2" }
+    ]
+  },
+  {
+    "id": "207420",
+    "name": "Warrawee",
+    "platforms": [
+      { "id": "2074191", "name": "Warrawee Platform 1" },
+      { "id": "2074192", "name": "Warrawee Platform 2" }
+    ]
+  },
+  {
+    "id": "277420",
+    "name": "Warrimoo",
+    "platforms": [
+      { "id": "2774121", "name": "Warrimoo Platform 1" },
+      { "id": "2774122", "name": "Warrimoo Platform 2" }
+    ]
+  },
+  {
+    "id": "217010",
+    "name": "Warwick Farm",
+    "platforms": [
+      { "id": "2170831", "name": "Warwick Farm Platform 1" },
+      { "id": "2170832", "name": "Warwick Farm Platform 2" }
+    ]
+  },
+  {
+    "id": "223330",
+    "name": "Waterfall",
+    "platforms": [
+      { "id": "2233291", "name": "Waterfall Platform 1" },
+      { "id": "2233292", "name": "Waterfall Platform 2" }
+    ]
+  },
+  {
+    "id": "24461",
+    "name": "Wauchope",
+    "platforms": [{ "id": "244648", "name": "Wauchope Platform 1" }]
+  },
+  {
+    "id": "206020",
+    "name": "Waverton",
+    "platforms": [
+      { "id": "2060111", "name": "Waverton Platform 1" },
+      { "id": "2060112", "name": "Waverton Platform 2" }
+    ]
+  },
+  {
+    "id": "28202",
+    "name": "Wellington",
+    "platforms": [{ "id": "282023", "name": "Wellington Platform 1" }]
+  },
+  {
+    "id": "278210",
+    "name": "Wentworth Falls",
+    "platforms": [
+      {
+        "id": "2782181",
+        "name": "Wentworth Falls Platform 1"
+      },
+      {
+        "id": "2782182",
+        "name": "Wentworth Falls Platform 2"
+      }
+    ]
+  },
+  {
+    "id": "214520",
+    "name": "Wentworthville",
+    "platforms": [
+      {
+        "id": "2145651",
+        "name": "Wentworthville Platform 1"
+      },
+      {
+        "id": "2145652",
+        "name": "Wentworthville Platform 2"
+      },
+      {
+        "id": "2145653",
+        "name": "Wentworthville Platform 3"
+      },
+      { "id": "2145654", "name": "Wentworthville Platform 4" }
+    ]
+  },
+  {
+    "id": "274710",
+    "name": "Werrington",
+    "platforms": [
+      { "id": "2747371", "name": "Werrington Platform 1" },
+      { "id": "2747372", "name": "Werrington Platform 2" }
+    ]
+  },
+  {
+    "id": "23411",
+    "name": "Werris Creek",
+    "platforms": [
+      { "id": "23418", "name": "Werris Creek Platform 1" },
+      { "id": "23419", "name": "Werris Creek Platform 2" }
+    ]
+  },
+  {
+    "id": "211420",
+    "name": "West Ryde",
+    "platforms": [
+      { "id": "2114191", "name": "West Ryde Platform 1" },
+      { "id": "2114192", "name": "West Ryde Platform 2" },
+      { "id": "2114193", "name": "West Ryde Platform 3" }
+    ]
+  },
+  {
+    "id": "214510",
+    "name": "Westmead",
+    "platforms": [
+      { "id": "2145661", "name": "Westmead Platform 1" },
+      { "id": "2145662", "name": "Westmead Platform 2" },
+      { "id": "2145663", "name": "Westmead Platform 3" },
+      { "id": "2145664", "name": "Westmead Platform 4" }
+    ]
+  },
+  {
+    "id": "219520",
+    "name": "Wiley Park",
+    "platforms": [
+      { "id": "2195141", "name": "Wiley Park Platform 1" },
+      { "id": "2195142", "name": "Wiley Park Platform 2" }
+    ]
+  },
+  {
+    "id": "23391",
+    "name": "Willow Tree",
+    "platforms": [{ "id": "23393", "name": "Willow Tree Platform 1" }]
+  },
+  {
+    "id": "275620",
+    "name": "Windsor",
+    "platforms": [{ "id": "2756451", "name": "Windsor Platform 1" }]
+  },
+  {
+    "id": "257910",
+    "name": "Wingello",
+    "platforms": [
+      { "id": "2579111", "name": "Wingello Platform 1" },
+      { "id": "2579112", "name": "Wingello Platform 2" }
+    ]
+  },
+  {
+    "id": "24291",
+    "name": "Wingham",
+    "platforms": [{ "id": "2429102", "name": "Wingham Platform 1" }]
+  },
+  {
+    "id": "242030",
+    "name": "Wirragulla",
+    "platforms": [{ "id": "2420101", "name": "Wirragulla Platform 1" }]
+  },
+  {
+    "id": "220510",
+    "name": "Wolli Creek",
+    "platforms": [
+      { "id": "2205111", "name": "Wolli Creek Platform 1" },
+      { "id": "2205112", "name": "Wolli Creek Platform 2" },
+      { "id": "2205113", "name": "Wolli Creek Platform 3" },
+      { "id": "2205114", "name": "Wolli Creek Platform 4" }
+    ]
+  },
+  {
+    "id": "250020",
+    "name": "Wollongong",
+    "platforms": [
+      { "id": "2500401", "name": "Wollongong Platform 1" },
+      { "id": "2500402", "name": "Wollongong Platform 2" },
+      { "id": "2500403", "name": "Wollongong Platform 3" },
+      { "id": "2500404", "name": "Wollongong Platform 4" }
+    ]
+  },
+  {
+    "id": "206510",
+    "name": "Wollstonecraft",
+    "platforms": [
+      {
+        "id": "2065161",
+        "name": "Wollstonecraft Platform 1"
+      },
+      { "id": "2065162", "name": "Wollstonecraft Platform 2" }
+    ]
+  },
+  {
+    "id": "251520",
+    "name": "Wombarra",
+    "platforms": [
+      { "id": "2515151", "name": "Wombarra Platform 1" },
+      { "id": "2515152", "name": "Wombarra Platform 2" }
+    ]
+  },
+  {
+    "id": "225010",
+    "name": "Wondabyne",
+    "platforms": [
+      { "id": "2256461", "name": "Wondabyne Platform 1" },
+      { "id": "2256462", "name": "Wondabyne Platform 2" }
+    ]
+  },
+  {
+    "id": "277810",
+    "name": "Woodford",
+    "platforms": [
+      { "id": "277881", "name": "Woodford Platform 1" },
+      { "id": "277882", "name": "Woodford Platform 2" }
+    ]
+  },
+  {
+    "id": "223010",
+    "name": "Woolooware",
+    "platforms": [
+      { "id": "2230221", "name": "Woolooware Platform 1" },
+      { "id": "2230222", "name": "Woolooware Platform 2" }
+    ]
+  },
+  {
+    "id": "251710",
+    "name": "Woonona",
+    "platforms": [
+      { "id": "251781", "name": "Woonona Platform 1" },
+      { "id": "251782", "name": "Woonona Platform 2" }
+    ]
+  },
+  {
+    "id": "225610",
+    "name": "Woy Woy",
+    "platforms": [
+      { "id": "2256471", "name": "Woy Woy Platform 1" },
+      { "id": "2256472", "name": "Woy Woy Platform 2" }
+    ]
+  },
+  {
+    "id": "225940",
+    "name": "Wyee",
+    "platforms": [
+      { "id": "2259931", "name": "Wyee Platform 1" },
+      { "id": "2259932", "name": "Wyee Platform 2" }
+    ]
+  },
+  {
+    "id": "200080",
+    "name": "Wynyard",
+    "platforms": [
+      { "id": "2000403", "name": "Wynyard Platform 3" },
+      { "id": "2000404", "name": "Wynyard Platform 4" },
+      { "id": "2000405", "name": "Wynyard Platform 5" },
+      { "id": "2000406", "name": "Wynyard Platform 6" }
+    ]
+  },
+  {
+    "id": "225920",
+    "name": "Wyong",
+    "platforms": [
+      { "id": "2259941", "name": "Wyong Platform 1" },
+      { "id": "2259942", "name": "Wyong Platform 2" },
+      { "id": "2259943", "name": "Wyong Platform 3" }
+    ]
+  },
+  {
+    "id": "219910",
+    "name": "Yagoona",
+    "platforms": [
+      { "id": "2199171", "name": "Yagoona Platform 1" },
+      { "id": "2199172", "name": "Yagoona Platform 2" }
+    ]
+  },
+  {
+    "id": "25821",
+    "name": "Yass Junction",
+    "platforms": [
+      { "id": "258234", "name": "Yass Junction Platform 1" },
+      { "id": "258235", "name": "Yass Junction Platform 2" }
+    ]
+  },
+  {
+    "id": "216120",
+    "name": "Yennora",
+    "platforms": [
+      { "id": "2161261", "name": "Yennora Platform 1" },
+      { "id": "2161262", "name": "Yennora Platform 2" }
+    ]
+  },
+  {
+    "id": "257540",
+    "name": "Yerrinbool",
+    "platforms": [
+      { "id": "2575141", "name": "Yerrinbool Platform 1" },
+      { "id": "2575142", "name": "Yerrinbool Platform 2" }
+    ]
+  },
+  {
+    "id": "278630",
+    "name": "Zig Zag",
+    "platforms": [
+      { "id": "2790151", "name": "Zig Zag Platform 1" },
+      { "id": "2790152", "name": "Zig Zag Platform 2" }
+    ]
+  }
+]

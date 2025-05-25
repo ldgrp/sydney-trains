@@ -16,9 +16,8 @@ import type { TRPCRouter } from '@/integrations/trpc/router'
 import type { TRPCOptionsProxy } from '@trpc/tanstack-react-query'
 
 interface MyRouterContext {
-  queryClient: QueryClient
-
   trpc: TRPCOptionsProxy<TRPCRouter>
+  queryClient: QueryClient
 }
 
 export const Route = createRootRouteWithContext<MyRouterContext>()({
@@ -55,7 +54,7 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
 
 function RootDocument({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="text-xs sm:text-base dark">
+    <html lang="en" className="text-sm sm:text-base dark">
       <head>
         <HeadContent />
       </head>
