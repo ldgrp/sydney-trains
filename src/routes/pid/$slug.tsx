@@ -14,6 +14,14 @@ import { Share, Train } from 'lucide-react'
 import { useEffect } from 'react'
 
 export const Route = createFileRoute('/pid/$slug')({
+  head: () => ({
+    meta: [
+      {
+        property: 'og:image',
+        content: '/api/og',
+      },
+    ],
+  }),
   component: RouteComponent,
   validateSearch: (search: Record<string, unknown>) => {
     const parsedSettings = settingsSchema.safeParse(search)
@@ -45,6 +53,16 @@ function RouteComponent() {
   useEffect(() => {
     if (data) {
       document.title = `${data.stationName} - Platform ${data.platform} - PID`
+      // set the og:image to the route
+      document
+        .querySelector('meta[property="og:image"]')
+        ?.setAttribute(
+          'content',
+          new URL(
+            `/api/og?stationName=${data.stationName}&destination=${data.destination}&destinationVia=${data.destinationSubtitle}&platformNumber=${data.platform}`,
+            window.location.origin,
+          ).toString(),
+        )
     }
   }, [data])
 

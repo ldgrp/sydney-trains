@@ -7,6 +7,14 @@ import { Button } from '@/components/ui/button'
 import StationsSheet from '@/components/StationsSheet'
 
 export const Route = createFileRoute('/')({
+  head: () => ({
+    meta: [
+      {
+        property: 'og:image',
+        content: new URL('/api/og', window.location.origin).toString(),
+      },
+    ],
+  }),
   component: App,
 })
 
